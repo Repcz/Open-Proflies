@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202311121415
+## ! Version: 202311131538
 ## ! Title: EasyPrivacy
-## ! Last modified: 12 Nov 2023 14:15 UTC
+## ! Last modified: 13 Nov 2023 15:38 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -19116,7 +19116,6 @@ HOST-SUFFIX,clients.belairdirect.com,reject,DIRECT
 HOST-SUFFIX,clients.intact.ca,reject,DIRECT
 HOST-SUFFIX,clients.nbc-insurance.ca,reject,DIRECT
 HOST-SUFFIX,clk.mindfulsuite.com,reject,DIRECT
-HOST-SUFFIX,cloud.degoo.com,reject,DIRECT
 HOST-SUFFIX,cltr.irlmail.org,reject,DIRECT
 HOST-SUFFIX,cmflinks.provesio.com,reject,DIRECT
 HOST-SUFFIX,cn1.stadiumgoods.com,reject,DIRECT
@@ -21640,7 +21639,6 @@ HOST-SUFFIX,stat.stars.ru,reject,DIRECT
 HOST-SUFFIX,stats.mos.ru,reject,DIRECT
 HOST-SUFFIX,sync.rambler.ru,reject,DIRECT
 HOST-SUFFIX,top-staging.mail.ru,reject,DIRECT
-HOST-SUFFIX,xapi.ozon.ru,reject,DIRECT
 HOST-SUFFIX,xray.mail.ru,reject,DIRECT
 HOST-SUFFIX,yast.rutube.ru,reject,DIRECT
 HOST-SUFFIX,tracker.azet.sk,reject,DIRECT
