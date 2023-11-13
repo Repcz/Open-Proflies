@@ -1,0 +1,20 @@
+# NAME: AppleMusic
+# AUTHOR: blackmatrix7
+# REPO: https:
+# UPDATED: 2023-10-07 14:17:49
+# DOMAIN: 6
+# HOST-SUFFIX: 3
+# 
+# USER-AGENT: 1
+# TOTAL: 11
+HOST,aod-ssl.itunes.apple.com,DIRECT
+HOST,aod.itunes.apple.com,DIRECT
+HOST,audio-ssl.itunes.apple.com,DIRECT
+HOST,audio.itunes.apple.com,DIRECT
+HOST,mvod.itunes.apple.com,DIRECT
+HOST,streamingaudio.itunes.apple.com,DIRECT
+HOST-SUFFIX,applemusic.com,DIRECT
+HOST-SUFFIX,blobstore.apple.com,DIRECT
+HOST-SUFFIX,music.apple.com,DIRECT
+USER-AGENT,Music*,DIRECT
+

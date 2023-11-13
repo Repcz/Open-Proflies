@@ -1,0 +1,10 @@
+# NAME: AppleID
+# AUTHOR: blackmatrix7
+# REPO: https:
+# UPDATED: 2023-10-07 14:23:07
+# DOMAIN: 4
+# TOTAL: 4
+HOST,appleid.apple.com,DIRECT
+HOST,appleid.cdn-apple.com,DIRECT
+HOST,gsa.apple.com,DIRECT
+HOST,idmsa.apple.com,DIRECT

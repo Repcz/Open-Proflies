@@ -1,0 +1,15 @@
+# 内容：OpenAi
+# 数量：13条
+HOST-KEYWORD,openai,DIRECT
+HOST-SUFFIX,auth0.com,DIRECT
+HOST-SUFFIX,challenges.cloudflare.com,DIRECT
+HOST-SUFFIX,client-api.arkoselabs.com,DIRECT
+HOST-SUFFIX,events.statsigapi.net,DIRECT
+HOST-SUFFIX,featuregates.org,DIRECT
+HOST-SUFFIX,identrust.com,DIRECT
+HOST-SUFFIX,intercom.io,DIRECT
+HOST-SUFFIX,intercomcdn.com,DIRECT
+HOST-SUFFIX,openai.com,DIRECT
+HOST-SUFFIX,openaiapi-site.azureedge.net,DIRECT
+HOST-SUFFIX,sentry.io,DIRECT
+HOST-SUFFIX,stripe.com,DIRECT

@@ -1,0 +1,306 @@
+# Author:https://github.com/Repcz
+# TG:https://t.me/QVQ_Channel
+# 以 ';' 或 '#' 或 '//' 开头的配置文件行为注释行
+#
+# 最后更新时间: 2023/7/14
+#
+# ================
+
+#port: 7890           # HTTP 代理端口
+#socks-port: 7891     # SOCKS5 代理端口
+#redir-port: 7892     # Linux 和 macOS 的 redir 代理端口
+mixed-port: 7893      # 混合端口 HTTP和SOCKS5用一个端口
+allow-lan: true       # 允许局域网的连接（可用来共享代理）
+bind-address: "*"     # 仅在将allow-lan设置为true时适用
+                      # #"*": 绑定所有IP地址
+ipv6: false           # 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
+mode: rule            # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+log-level: info       # 设置日志输出级别 (5 个级别：silent / error / warning / info / debug）
+external-controller: 127.0.0.1:9090   #外部控制器,可以使用 RESTful API 来控制你的 clash 内核
+
+hosts:
+# '*.clash.dev': 127.0.0.1
+# '.dev': 127.0.0.1
+# 'alpha.clash.dev': '::1'
+# test.com: [1.1.1.1, 2.2.2.2]
+# clash.lan: clash # clash 为特别字段，将加入本地所有网卡的地址
+# baidu.com: google.com # 只允许配置一个别名
+  # > IPv6
+  "ip6-localhost": "::1" # IPv6 Localhost
+  "ip6-loopback": "::1" # IPv6 Loopback
+  "ip6-localnet": "fe00::0" # IPv6 Link-Local
+  "ip6-mcastprefix": "ff00::0" # IPv6 Multicast
+  "ip6-allnodes": "ff02::1" # IPv6 All Nodes
+  "ip6-allrouters": "ff02::2" # IPv6 All Routers
+  "ip6-allhosts": "ff02::3" # IPv6 All Hosts
+  # > Firebase Cloud Messaging
+  "talk.google.com": "108.177.125.188" # Firebase Cloud Messaging
+  "mtalk.google.com": "108.177.125.188" # Firebase Cloud Messaging
+  "alt1-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
+  "alt2-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
+  "alt3-mtalk.google.com": "74.125.200.188" # Firebase Cloud Messaging
+  "alt4-mtalk.google.com": "74.125.200.188" # Firebase Cloud Messaging
+  "alt5-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
+  "alt6-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
+  "alt7-mtalk.google.com": "74.125.200.188" # Firebase Cloud Messaging
+  "alt8-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
+  # > APP Store下载加速
+  "token.safebrowsing.apple": "17.253.85.207"
+  "proxy.safebrowsing.apple": "17.253.85.208"
+  "iosapps.itunes.apple.com": "17.253.85.201"
+  "iosapps.itunes.g.aaplimg.com": "17.253.85.206"
+  "k128-iosapps-all.gslb.ksyuncdn.com": "17.253.85.201"
+  "iosapps.itunes.apple.com.m.alikunlun.net": "17.253.85.201"
+  "iosapps.itunes.apple.com.download.ks-cdn.com": "17.253.85.201"
+  #"hls.itunes.apple.com.mwcname.com": 17.253.85.201"
+  "iosapps-cn-lb.dl-apple.com.akadns.net": "17.253.85.201"
+
+dns:
+  enable: true             # 关闭将使用系统 DNS
+  ipv6: false              # IPV6解析开关；如果为false，将返回ipv6结果为空
+  enhanced-mode: fake-ip   # 模式：redir-host或fake-ip
+  listen: 0.0.0.0:53       # DNS监听地址
+  default-nameserver:      # 解析非IP的dns用的dns服务器,只支持纯IP
+     - 223.5.5.5
+     - 119.29.29.29
+  fake-ip-range: 198.18.0.1/16    # Fake-IP解析地址池
+  fake-ip-filter:          # fake ip 白名单列表'以下地址不会下发fakeip映射用于连接
+     - '*.lan' 
+     - 'cable.auth.com' 
+     - '*.msftconnecttest.com' 
+     - '*.msftncsi.com' 
+     - 'network-test.debian.org'
+     - 'detectportal.firefox.com' 
+     - 'resolver1.opendns.com' 
+     - '*.srv.nintendo.net' 
+     - '*.stun.playstation.net' 
+     - 'xbox.*.microsoft.com' 
+     - '*.xboxlive.com' 
+     - 'stun.*' 
+     - 'global.turn.twilio.com' 
+     - 'global.stun.twilio.com' 
+     - 'localhost.*.qq.com' 
+     - 'localhost.*.weixin.qq.com' 
+     - '*.logon.battlenet.com.cn' 
+     - '*.logon.battle.net' 
+     - '*.blzstatic.cn' 
+     - 'music.163.com' 
+     - '*.music.163.com' 
+     - '*.126.net' 
+     - 'musicapi.taihe.com' 
+     - 'music.taihe.com' 
+     - 'songsearch.kugou.com' 
+     - 'trackercdn.kugou.com' 
+     - '*.kuwo.cn' 
+     - 'api-jooxtt.sanook.com' 
+     - 'api.joox.com' 
+     - 'joox.com' 
+     - 'y.qq.com' 
+     - '*.y.qq.com' 
+     - 'streamoc.music.tc.qq.com' 
+     - 'mobileoc.music.tc.qq.com' 
+     - 'isure.stream.qqmusic.qq.com' 
+     - 'dl.stream.qqmusic.qq.com' 
+     - 'aqqmusic.tc.qq.com' 
+     - 'amobile.music.tc.qq.com' 
+     - '*.xiami.com' 
+     - '*.music.migu.cn' 
+     - 'music.migu.cn' 
+     - 'proxy.golang.org' 
+     - '*.mcdn.bilivideo.cn' 
+     - '*.cmpassport.com' 
+     - 'id6.me' 
+     - 'open.e.189.cn' 
+     - 'mdn.open.wo.cn' 
+     - 'opencloud.wostore.cn' 
+     - 'auth.wosms.cn' 
+     - '*.jegotrip.com.cn' 
+     - '*.icitymobile.mobi' 
+     - '*.pingan.com.cn' 
+     - '*.cmbchina.com' 
+     - 'pool.ntp.org' 
+     - '*.pool.ntp.org' 
+     - 'ntp.*.com' 
+     - 'time.*.com' 
+     - 'ntp?.*.com' 
+     - 'time?.*.com' 
+     - 'time.*.gov' 
+     - 'time.*.edu.cn' 
+     - '*.ntp.org.cn' 
+     - 'PDC._msDCS.*.*' 
+     - 'DC._msDCS.*.*' 
+     - 'GC._msDCS.*.*'
+  nameserver:             # 默认DNS服务器，支持udp/tcp/dot/doh/doq
+     - 223.5.5.5
+     - 119.29.29.29
+  fallback:               # 解析国外域名的DNS服务器
+     - https://doh.pub/dns-query
+     - https://dns.alidns.com/dns-query
+  fallback-filter:        # 配置 fallback 使用条件
+    geoip: true           # 配置是否使用 geoip
+    geoip-code: CN        # 当 nameserver 域名的 IP 查询 geoip 库为 CN 时，不使用 fallback 中的 DNS 查询结果
+    ipcidr:               # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+      - 240.0.0.0/4
+       
+###建立锚点
+    
+# 策略组引用相关
+pr: &pr {type: select, proxies: [🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点,  🇨🇳 台湾节点, 🇬🇧 英国节点, 🇦🇺 澳洲节点, 🇮🇳 印度节点, 🚀 手动切换, DIRECT]}
+
+# 订阅更新和延迟测试相关
+p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://www.gstatic.com/generate_204, interval: 1800}}
+
+# 自动选择相关
+auto: &auto {type: url-test, lazy: true, url: http://www.gstatic.com/generate_204, interval: 900, use: [Subscribe]}
+
+# 手动选择相关
+use: &use {type: select, use: [Subscribe]}
+
+# classical规则相关
+c: &c {type: http, behavior: classical, interval: 86400}
+
+# domain规则相关
+d: &d {type: http, behavior: domain, interval: 86400}
+
+# ipcidr规则相关
+i: &i {type: http, behavior: ipcidr, interval: 86400}
+
+###结束
+
+proxy-providers:
+  Subscribe: {<<: *p, url: https://sub.xeton.dev/sub?target=clash&url=你的订阅链接&list=true&udp=true, path: ./Sub.yaml}
+    # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可
+    # Sub-Store生成的链接，可以直接替换上述url引号中的部分，具体见Sub-Store教程         
+               
+proxies: null
+
+proxy-groups:
+
+ #分流分组
+
+ - {name: 🌏 国外网站, <<: *pr}
+
+ - {name: 📹 国际媒体, <<: *pr}
+ 
+ - {name: 🎵 国外抖音, <<: *pr}
+
+ - {name: 🍎 苹果服务, type: select, proxies: [DIRECT, 🇭🇰 香港节点, 🇺🇲 美国节点]}
+
+ - {name: 🧩 微软服务, <<: *pr}
+
+ - {name: 🌌 谷歌服务, <<: *pr}
+
+ - {name: 📟 电报消息, <<: *pr}
+
+ - {name: 🐦 推特消息, <<: *pr}
+ 
+ - {name: 🤖 OpenAI, type: select, proxies: [DIRECT, 🇺🇲 美国节点, 🚀 手动切换]}
+
+ - {name: 🎮 游戏平台, <<: *pr}
+  
+ - {name: 📺 哔哩哔哩, type: select, proxies: [DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点]}
+
+ - {name: 🌏 国内网站, type: select, proxies: [DIRECT, 🚀 手动切换]}
+  
+ - {name: 🛑 AdBlock, type: select, proxies: [REJECT, DIRECT]}
+  
+ - {name: 🐟 漏网之鱼, <<: *pr}
+ 
+ #节点地区分组
+ 
+ - {name: 🇭🇰 香港节点, <<: *use, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"}
+
+ - {name: 🇺🇲 美国节点, <<: *use, filter: "(?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)"}
+
+ - {name: 🇸🇬 狮城节点, <<: *use, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)"}
+
+ - {name: 🇯🇵 日本节点, <<: *use, filter: "(?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)"}
+
+ - {name: 🇨🇳 台湾节点, <<: *auto, filter: "(?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
+
+ - {name: 🇬🇧 英国节点, <<: *auto, filter: "(?i)🇬🇧|英国|伦敦|(\b(UK|United Kingdom)\b)"}
+  
+ - {name: 🇦🇺 澳洲节点, <<: *auto, filter: "(?i)🇦🇺|澳大利亚|(\b(AU|Australia)\b)"}
+ 
+ - {name: 🇮🇳 印度节点, <<: *auto, filter: "(?i)🇮🇳|印度|班加罗尔|孟买|(\b(Mumbai|IN|India)\b)"}
+ 
+ - {name: 🚀 手动切换, <<: *use}
+
+rule-providers:
+
+ # 规则修正
+ Direct: {<<: *d, path: ./ruleset/Direct.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml}
+
+ # 局域网   
+ Lan: {<<: *c, path: ./ruleset/Lan.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml}
+
+ # 下载服务
+ Download: {<<: *c, path: ./ruleset/Download.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml}
+    
+ #广告拦截
+ Anti-AD: {<<: *d, path: ./ruleset/anti-ad-clash.yaml, url: https://anti-ad.net/clash.yaml}
+
+ #HTTPDNS拦截
+ HTTPDNS: {<<: *d, path: ./ruleset/HTTPDNS.Block.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.yaml}
+
+ # 国际媒体
+ GlobalMedia: {<<: *c, path: ./ruleset/GlobalMedia.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml}
+
+ # 苹果服务
+ Apple: {<<: *c, path: ./ruleset/Apple.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml}
+
+ # 微软服务 
+ Microsoft: {<<: *c, path: ./ruleset/Microsoft.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml}
+ Github: {<<: *c, path: ./ruleset/Github.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml}
+
+ # 谷歌服务
+ Youtube: {<<: *c, path: ./ruleset/Youtube.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml}
+ Google: {<<: *c, path: ./ruleset/Google.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml}
+
+ # 电报消息
+ Telegram: {<<: *c, path: ./ruleset/Telegram.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml}
+
+ # 推特消息
+ Twitter: {<<: *c, path: ./ruleset/Twitter.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml}
+
+ # 哔哩哔哩
+ BiliBili: {<<: *c, path: ./ruleset/BiliBili.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml}
+
+ # 游戏平台
+ Game: {<<: *c, path: ./ruleset/Game.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml}
+
+ # AI平台
+ OpenAI: {<<: *c, path: ./ruleset/OpenAI.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml}
+
+ # 中国大陆
+ ChinaIP: {<<: *i, path: ./ruleset/ChinaIP.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/clash-rule-provider.yml}
+
+ # 代理网站
+ ProxyLite: {<<: *c, path: ./ruleset/ProxyLite.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml}
+ 
+rules:
+  - SCRIPT,quic,REJECT
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Lan,DIRECT
+  - RULE-SET,Download,DIRECT
+  - RULE-SET,HTTPDNS,🛑 AdBlock
+  - RULE-SET,Anti-AD,🛑 AdBlock
+  - RULE-SET,OpenAI,🤖 OpenAI
+  - RULE-SET,GlobalMedia,📹 国际媒体
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Microsoft,🧩 微软服务
+  - RULE-SET,Github,🧩 微软服务  
+  - RULE-SET,Youtube,🌌 谷歌服务
+  - RULE-SET,Google,🌌 谷歌服务
+  - RULE-SET,Telegram,📟 电报消息
+  - RULE-SET,Twitter,🐦 推特消息
+  - RULE-SET,BiliBili,📺 哔哩哔哩
+  - RULE-SET,Game,🎮 游戏平台
+  - RULE-SET,ProxyLite,🌏 国外网站
+  - RULE-SET,ChinaIP,🌏 国内网站
+  - GEOIP,CN,🌏 国内网站
+  - MATCH,🐟 漏网之鱼
+
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443

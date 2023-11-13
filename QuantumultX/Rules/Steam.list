@@ -1,0 +1,20 @@
+# 内容：Steam
+# 数量：18条
+HOST,steambroadcast.akamaized.net,DIRECT
+HOST,steamcommunity-a.akamaihd.net,DIRECT
+HOST,steampipe.akamaized.net,DIRECT
+HOST,steamstore-a.akamaihd.net,DIRECT
+HOST,steamusercontent-a.akamaihd.net,DIRECT
+HOST,steamuserimages-a.akamaihd.net,DIRECT
+HOST-SUFFIX,fanatical.com,DIRECT
+HOST-SUFFIX,humblebundle.com,DIRECT
+HOST-SUFFIX,playartifact.com,DIRECT
+HOST-SUFFIX,steam-chat.com,DIRECT
+HOST-SUFFIX,steamcommunity.com,DIRECT
+HOST-SUFFIX,steamgames.com,DIRECT
+HOST-SUFFIX,steampowered.com,DIRECT
+HOST-SUFFIX,steamserver.net,DIRECT
+HOST-SUFFIX,steamstat.us,DIRECT
+HOST-SUFFIX,steamstatic.com,DIRECT
+HOST-SUFFIX,underlords.com,DIRECT
+HOST-SUFFIX,valvesoftware.com,DIRECT

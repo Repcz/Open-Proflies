@@ -1,0 +1,13 @@
+# 内容：TikTok
+# 数量：11条
+USER-AGENT,TikTok*,DIRECT
+HOST-KEYWORD,tiktokcdn,DIRECT
+HOST-SUFFIX,byteoversea.com,DIRECT
+HOST-SUFFIX,ibytedtos.com,DIRECT
+HOST-SUFFIX,ipstatp.com,DIRECT
+HOST-SUFFIX,muscdn.com,DIRECT
+HOST-SUFFIX,musical.ly,DIRECT
+HOST-SUFFIX,tik-tokapi.com,DIRECT
+HOST-SUFFIX,tiktok.com,DIRECT
+HOST-SUFFIX,tiktokcdn.com,DIRECT
+HOST-SUFFIX,tiktokv.com,DIRECT

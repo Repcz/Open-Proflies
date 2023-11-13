@@ -1,0 +1,19 @@
+# 内容：YouTube
+# 数量：17条
+USER-AGENT,*youtube*,DIRECT
+USER-AGENT,YouTube*,DIRECT
+USER-AGENT,com.google.ios.youtube*,DIRECT
+HOST-KEYWORD,youtube,DIRECT
+HOST,youtubei.googleapis.com,DIRECT
+HOST,yt3.ggpht.com,DIRECT
+HOST-SUFFIX,googlevideo.com,DIRECT
+HOST-SUFFIX,gvt2.com,DIRECT
+HOST-SUFFIX,withyoutube.com,DIRECT
+HOST-SUFFIX,youtu.be,DIRECT
+HOST-SUFFIX,youtube-nocookie.com,DIRECT
+HOST-SUFFIX,youtube.com,DIRECT
+HOST-SUFFIX,youtubeeducation.com,DIRECT
+HOST-SUFFIX,youtubegaming.com,DIRECT
+HOST-SUFFIX,youtubekids.com,DIRECT
+HOST-SUFFIX,yt.be,DIRECT
+HOST-SUFFIX,ytimg.com,DIRECT

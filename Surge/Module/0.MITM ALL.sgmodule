@@ -1,0 +1,5 @@
+#!name=0.MITM ALL
+#!desc=解密所有 HTTPS 流量
+
+[MITM]
+hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, *:0

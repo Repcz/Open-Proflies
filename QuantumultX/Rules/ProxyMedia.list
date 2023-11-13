@@ -1,0 +1,462 @@
+# 内容：国外媒体列表
+# 更新：2023-10-23 21:04:59
+# 数量：367条
+
+# ABC
+HOST-SUFFIX,edgedatg.com,DIRECT
+HOST-SUFFIX,go.com,DIRECT
+
+# AbemaTV
+USER-AGENT,AbemaTV*,DIRECT
+HOST-KEYWORD,abematv.akamaized.net,DIRECT
+HOST,api-abematv.bucketeer.jp,DIRECT
+HOST-SUFFIX,abema-tv.com,DIRECT
+HOST-SUFFIX,abema.io,DIRECT
+HOST-SUFFIX,abema.tv,DIRECT
+HOST-SUFFIX,ameba.jp,DIRECT
+HOST-SUFFIX,hayabusa.io,DIRECT
+HOST-SUFFIX,hayabusa.media,DIRECT
+
+# All4
+USER-AGENT,All4*,DIRECT
+HOST-SUFFIX,c4assets.com,DIRECT
+HOST-SUFFIX,channel4.com,DIRECT
+
+# Amazon
+HOST-KEYWORD,avoddashs,DIRECT
+HOST,atv-ps.amazon.com,DIRECT
+HOST,avodmp4s3ww-a.akamaihd.net,DIRECT
+HOST,d1v5ir2lpwr8os.cloudfront.net,DIRECT
+HOST,d1xfray82862hr.cloudfront.net,DIRECT
+HOST,d22qjgkvxw22r6.cloudfront.net,DIRECT
+HOST,d25xi40x97liuc.cloudfront.net,DIRECT
+HOST,d27xxe7juh1us6.cloudfront.net,DIRECT
+HOST,d3196yreox78o9.cloudfront.net,DIRECT
+HOST,dmqdd6hw24ucf.cloudfront.net,DIRECT
+HOST,ktpx.amazon.com,DIRECT
+HOST-SUFFIX,aboutamazon.com,DIRECT
+HOST-SUFFIX,aiv-cdn.net,DIRECT
+HOST-SUFFIX,aiv-delivery.net,DIRECT
+HOST-SUFFIX,amazon.jobs,DIRECT
+HOST-SUFFIX,amazontools.com,DIRECT
+HOST-SUFFIX,amazontours.com,DIRECT
+HOST-SUFFIX,amazonuniversity.jobs,DIRECT
+HOST-SUFFIX,amazonvideo.com,DIRECT
+HOST-SUFFIX,media-amazon.com,DIRECT
+HOST-SUFFIX,pv-cdn.net,DIRECT
+HOST-SUFFIX,seattlespheres.com,DIRECT
+URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,DIRECT
+
+# AppleNews
+USER-AGENT,AppleNews*,DIRECT
+USER-AGENT,com.apple.news*,DIRECT
+HOST,gspe1-ssl.ls.apple.com,DIRECT
+
+# AppleTV
+HOST,np-edge.itunes.apple.com,DIRECT
+HOST,play-edge.itunes.apple.com,DIRECT
+HOST-SUFFIX,tv.apple.com,DIRECT
+
+# BBCiPlayer
+USER-AGENT,BBCiPlayer*,DIRECT
+HOST-KEYWORD,bbcfmt,DIRECT
+HOST-KEYWORD,uk-live,DIRECT
+HOST,aod-dash-uk-live.akamaized.net,DIRECT
+HOST,aod-hls-uk-live.akamaized.net,DIRECT
+HOST,vod-dash-uk-live.akamaized.net,DIRECT
+HOST,vod-thumb-uk-live.akamaized.net,DIRECT
+HOST-SUFFIX,bbc.co,DIRECT
+HOST-SUFFIX,bbc.co.uk,DIRECT
+HOST-SUFFIX,bbc.com,DIRECT
+HOST-SUFFIX,bbc.net.uk,DIRECT
+HOST-SUFFIX,bbcfmt.hs.llnwd.net,DIRECT
+HOST-SUFFIX,bbci.co,DIRECT
+HOST-SUFFIX,bbci.co.uk,DIRECT
+HOST-SUFFIX,bidi.net.uk,DIRECT
+
+# Bahamut
+USER-AGENT,Anime*,DIRECT
+HOST,bahamut.akamaized.net,DIRECT
+HOST,gamer-cds.cdn.hinet.net,DIRECT
+HOST,gamer2-cds.cdn.hinet.net,DIRECT
+HOST-SUFFIX,bahamut.com.tw,DIRECT
+HOST-SUFFIX,gamer.com.tw,DIRECT
+
+# DAZN
+USER-AGENT,DAZN*,DIRECT
+HOST-KEYWORD,voddazn,DIRECT
+HOST,d151l6v8er5bdm.cloudfront.net,DIRECT
+HOST-SUFFIX,d151l6v8er5bdm.cloudfront.net,DIRECT
+HOST-SUFFIX,d1sgwhnao7452x.cloudfront.net,DIRECT
+HOST-SUFFIX,dazn-api.com,DIRECT
+HOST-SUFFIX,dazn.com,DIRECT
+HOST-SUFFIX,dazndn.com,DIRECT
+HOST-SUFFIX,dcblivedazn.akamaized.net,DIRECT
+HOST-SUFFIX,indazn.com,DIRECT
+HOST-SUFFIX,indaznlab.com,DIRECT
+HOST-SUFFIX,sentry.io,DIRECT
+
+# Deezer
+USER-AGENT,Deezer*,DIRECT
+HOST-SUFFIX,deezer.com,DIRECT
+HOST-SUFFIX,dzcdn.net,DIRECT
+
+# DiscoveryPlus
+HOST-SUFFIX,disco-api.com,DIRECT
+HOST-SUFFIX,discovery.com,DIRECT
+HOST-SUFFIX,uplynk.com,DIRECT
+
+# DisneyPlus
+USER-AGENT,Disney*,DIRECT
+USER-AGENT,Disney+*,DIRECT
+HOST,cdn.registerdisney.go.com,DIRECT
+HOST-SUFFIX,adobedtm.com,DIRECT
+HOST-SUFFIX,bam.nr-data.net,DIRECT
+HOST-SUFFIX,bamgrid.com,DIRECT
+HOST-SUFFIX,braze.com,DIRECT
+HOST-SUFFIX,cdn.optimizely.com,DIRECT
+HOST-SUFFIX,cdn.registerdisney.go.com,DIRECT
+HOST-SUFFIX,cws.conviva.com,DIRECT
+HOST-SUFFIX,d9.flashtalking.com,DIRECT
+HOST-SUFFIX,disney-plus.net,DIRECT
+HOST-SUFFIX,disney-portal.my.onetrust.com,DIRECT
+HOST-SUFFIX,disney.demdex.net,DIRECT
+HOST-SUFFIX,disney.my.sentry.io,DIRECT
+HOST-SUFFIX,disneyplus.bn5x.net,DIRECT
+HOST-SUFFIX,disneyplus.com,DIRECT
+HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,DIRECT
+HOST-SUFFIX,disneystreaming.com,DIRECT
+HOST-SUFFIX,dssott.com,DIRECT
+HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,DIRECT
+HOST-SUFFIX,js-agent.newrelic.com,DIRECT
+
+# EncoreTVB
+USER-AGENT,encoreTVB*,DIRECT
+HOST,bcbolt446c5271-a.akamaihd.net,DIRECT
+HOST,content.jwplatform.com,DIRECT
+HOST,edge.api.brightcove.com,DIRECT
+HOST,videos-f.jwpsrv.com,DIRECT
+HOST-SUFFIX,encoretvb.com,DIRECT
+
+# FoxNow
+USER-AGENT,FOX%20NOW*,DIRECT
+HOST-SUFFIX,fox.com,DIRECT
+HOST-SUFFIX,foxdcg.com,DIRECT
+HOST-SUFFIX,uplynk.com,DIRECT
+
+# HBO
+USER-AGENT,HBO%20NOW*,DIRECT
+USER-AGENT,HBOMAX*,DIRECT
+HOST-SUFFIX,hbo.com,DIRECT
+HOST-SUFFIX,hbogo.com,DIRECT
+HOST-SUFFIX,hbomax.com,DIRECT
+HOST-SUFFIX,hbomaxcdn.com,DIRECT
+HOST-SUFFIX,hbonow.com,DIRECT
+
+# HBO_GO_HKG
+USER-AGENT,HBO%20GO%20PROD*,DIRECT
+HOST-KEYWORD,.hbogoasia.,DIRECT
+HOST-KEYWORD,hbogoasia,DIRECT
+HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,DIRECT
+HOST,bcbolthboa-a.akamaihd.net,DIRECT
+HOST,cf-images.ap-southeast-1.prod.boltdns.net,DIRECT
+HOST,dai3fd1oh325y.cloudfront.net,DIRECT
+HOST,hboasia1-i.akamaihd.net,DIRECT
+HOST,hboasia2-i.akamaihd.net,DIRECT
+HOST,hboasia3-i.akamaihd.net,DIRECT
+HOST,hboasia4-i.akamaihd.net,DIRECT
+HOST,hboasia5-i.akamaihd.net,DIRECT
+HOST,hboasialive.akamaized.net,DIRECT
+HOST,hbogoprod-vod.akamaized.net,DIRECT
+HOST,hbolb.onwardsmg.com,DIRECT
+HOST,hbounify-prod.evergent.com,DIRECT
+HOST,players.brightcove.net,DIRECT
+HOST,s3-ap-southeast-1.amazonaws.com,DIRECT
+HOST-SUFFIX,hboasia.com,DIRECT
+HOST-SUFFIX,hbogoasia.com,DIRECT
+HOST-SUFFIX,hbogoasia.hk,DIRECT
+
+# HWTV
+USER-AGENT,HWTVMobile*,DIRECT
+HOST-SUFFIX,5itv.tv,DIRECT
+HOST-SUFFIX,ocnttv.com,DIRECT
+
+# Hulu
+HOST-SUFFIX,cws-hulu.conviva.com,DIRECT
+HOST-SUFFIX,hulu.com,DIRECT
+HOST-SUFFIX,hulu.hb.omtrdc.net,DIRECT
+HOST-SUFFIX,hulu.sc.omtrdc.net,DIRECT
+HOST-SUFFIX,huluad.com,DIRECT
+HOST-SUFFIX,huluim.com,DIRECT
+HOST-SUFFIX,hulustream.com,DIRECT
+
+# HuluJapan
+HOST-SUFFIX,happyon.jp,DIRECT
+HOST-SUFFIX,hjholdings.jp,DIRECT
+HOST-SUFFIX,hulu.jp,DIRECT
+HOST-SUFFIX,prod.hjholdings.tv,DIRECT
+HOST-SUFFIX,streaks.jp,DIRECT
+HOST-SUFFIX,yb.uncn.jp,DIRECT
+
+# ITV
+USER-AGENT,ITV_Player*,DIRECT
+HOST,itvpnpmobile-a.akamaihd.net,DIRECT
+HOST-SUFFIX,itv.com,DIRECT
+HOST-SUFFIX,itvstatic.com,DIRECT
+
+# JOOX
+USER-AGENT,JOOX*,DIRECT
+USER-AGENT,WeMusic*,DIRECT
+HOST-KEYWORD,jooxweb-api,DIRECT
+HOST-SUFFIX,joox.com,DIRECT
+
+# Japonx
+HOST-KEYWORD,japonx,DIRECT
+HOST-KEYWORD,japronx,DIRECT
+HOST-SUFFIX,japonx.com,DIRECT
+HOST-SUFFIX,japonx.net,DIRECT
+HOST-SUFFIX,japonx.tv,DIRECT
+HOST-SUFFIX,japonx.vip,DIRECT
+HOST-SUFFIX,japronx.com,DIRECT
+HOST-SUFFIX,japronx.net,DIRECT
+HOST-SUFFIX,japronx.tv,DIRECT
+HOST-SUFFIX,japronx.vip,DIRECT
+
+# KKBOX
+HOST-SUFFIX,kfs.io,DIRECT
+HOST-SUFFIX,kkbox.com,DIRECT
+HOST-SUFFIX,kkbox.com.tw,DIRECT
+
+# KKTV
+USER-AGENT,KKTV*,DIRECT
+USER-AGENT,com.kktv.ios.kktv*,DIRECT
+HOST,kktv-theater.kk.stream,DIRECT
+HOST,theater-kktv.cdn.hinet.net,DIRECT
+HOST-SUFFIX,kktv.com.tw,DIRECT
+HOST-SUFFIX,kktv.me,DIRECT
+
+# LiTV
+HOST,litvfreemobile-hichannel.cdn.hinet.net,DIRECT
+HOST-SUFFIX,litv.tv,DIRECT
+
+# LineTV
+USER-AGENT,LINE%20TV*,DIRECT
+USER-AGENT,LINE*,DIRECT
+HOST,d3c7rimkq79yfu.cloudfront.net,DIRECT
+HOST-SUFFIX,d3c7rimkq79yfu.cloudfront.net,DIRECT
+HOST-SUFFIX,linetv.tw,DIRECT
+HOST-SUFFIX,profile.line-scdn.net,DIRECT
+
+# My5
+USER-AGENT,My5*,DIRECT
+HOST,d349g9zuie06uo.cloudfront.net,DIRECT
+HOST-SUFFIX,channel5.com,DIRECT
+HOST-SUFFIX,my5.tv,DIRECT
+
+# MyTVSuper
+USER-AGENT,mytv*,DIRECT
+HOST-KEYWORD,nowtv100,DIRECT
+HOST-KEYWORD,rthklive,DIRECT
+HOST,mytvsuperlimited.hb.omtrdc.net,DIRECT
+HOST,mytvsuperlimited.sc.omtrdc.net,DIRECT
+HOST-SUFFIX,mytvsuper.com,DIRECT
+HOST-SUFFIX,tvb.com,DIRECT
+
+# Netflix
+USER-AGENT,Argo*,DIRECT
+HOST-KEYWORD,apiproxy-device-prod-nlb-,DIRECT
+HOST-KEYWORD,dualstack.apiproxy-,DIRECT
+HOST-KEYWORD,netflixdnstest,DIRECT
+HOST,netflix.com.edgesuite.net,DIRECT
+HOST-SUFFIX,fast.com,DIRECT
+HOST-SUFFIX,netflix.com,DIRECT
+HOST-SUFFIX,netflix.net,DIRECT
+HOST-SUFFIX,netflixdnstest0.com,DIRECT
+HOST-SUFFIX,netflixdnstest1.com,DIRECT
+HOST-SUFFIX,netflixdnstest2.com,DIRECT
+HOST-SUFFIX,netflixdnstest3.com,DIRECT
+HOST-SUFFIX,netflixdnstest4.com,DIRECT
+HOST-SUFFIX,netflixdnstest5.com,DIRECT
+HOST-SUFFIX,netflixdnstest6.com,DIRECT
+HOST-SUFFIX,netflixdnstest7.com,DIRECT
+HOST-SUFFIX,netflixdnstest8.com,DIRECT
+HOST-SUFFIX,netflixdnstest9.com,DIRECT
+HOST-SUFFIX,nflxext.com,DIRECT
+HOST-SUFFIX,nflximg.com,DIRECT
+HOST-SUFFIX,nflximg.net,DIRECT
+HOST-SUFFIX,nflxso.net,DIRECT
+HOST-SUFFIX,nflxvideo.net,DIRECT
+IP-CIDR,8.41.4.0/24,DIRECT
+IP-CIDR,23.246.0.0/18,DIRECT
+IP-CIDR,37.77.184.0/21,DIRECT
+IP-CIDR,38.72.126.0/24,DIRECT
+IP-CIDR,45.57.0.0/17,DIRECT
+IP-CIDR,64.120.128.0/17,DIRECT
+IP-CIDR,66.197.128.0/17,DIRECT
+IP-CIDR,69.53.224.0/19,DIRECT
+IP-CIDR,103.87.204.0/22,DIRECT
+IP-CIDR,108.175.32.0/20,DIRECT
+IP-CIDR,185.2.220.0/22,DIRECT
+IP-CIDR,185.9.188.0/22,DIRECT
+IP-CIDR,192.173.64.0/18,DIRECT
+IP-CIDR,198.38.96.0/19,DIRECT
+IP-CIDR,198.45.48.0/20,DIRECT
+IP-CIDR,203.75.84.0/24,DIRECT
+IP-CIDR,207.45.72.0/22,DIRECT
+IP-CIDR,208.75.76.0/22,DIRECT
+
+# Niconico
+USER-AGENT,Niconico*,DIRECT
+HOST-SUFFIX,dmc.nico,DIRECT
+HOST-SUFFIX,nicovideo.jp,DIRECT
+HOST-SUFFIX,nimg.jp,DIRECT
+
+# NivodTV
+HOST-KEYWORD,nivod,DIRECT
+HOST-SUFFIX,biggggg.com,DIRECT
+HOST-SUFFIX,mudvod.tv,DIRECT
+HOST-SUFFIX,nbys.tv,DIRECT
+HOST-SUFFIX,nbys1.tv,DIRECT
+HOST-SUFFIX,nbyy.tv,DIRECT
+HOST-SUFFIX,newpppp.com,DIRECT
+HOST-SUFFIX,nivod.tv,DIRECT
+HOST-SUFFIX,nivodi.tv,DIRECT
+HOST-SUFFIX,nivodz.com,DIRECT
+HOST-SUFFIX,vod360.net,DIRECT
+
+# Olevod
+HOST-KEYWORD,olevod,DIRECT
+HOST-SUFFIX,haiwaikan.com,DIRECT
+HOST-SUFFIX,iole.tv,DIRECT
+HOST-SUFFIX,olehd.com,DIRECT
+HOST-SUFFIX,olelive.com,DIRECT
+HOST-SUFFIX,olevod.com,DIRECT
+HOST-SUFFIX,olevod.io,DIRECT
+HOST-SUFFIX,olevod.tv,DIRECT
+HOST-SUFFIX,olevodtv.com,DIRECT
+
+# OpenAi
+HOST-KEYWORD,openai,DIRECT
+HOST-SUFFIX,auth0.com,DIRECT
+HOST-SUFFIX,challenges.cloudflare.com,DIRECT
+HOST-SUFFIX,client-api.arkoselabs.com,DIRECT
+HOST-SUFFIX,events.statsigapi.net,DIRECT
+HOST-SUFFIX,featuregates.org,DIRECT
+HOST-SUFFIX,identrust.com,DIRECT
+HOST-SUFFIX,intercom.io,DIRECT
+HOST-SUFFIX,intercomcdn.com,DIRECT
+HOST-SUFFIX,openai.com,DIRECT
+HOST-SUFFIX,openaiapi-site.azureedge.net,DIRECT
+HOST-SUFFIX,sentry.io,DIRECT
+HOST-SUFFIX,stripe.com,DIRECT
+
+# PBS
+USER-AGENT,PBS*,DIRECT
+HOST-SUFFIX,pbs.org,DIRECT
+
+# Pandora
+USER-AGENT,Pandora*,DIRECT
+HOST-SUFFIX,pandora.com,DIRECT
+
+# Pornhub
+HOST-SUFFIX,phncdn.com,DIRECT
+HOST-SUFFIX,phprcdn.com,DIRECT
+HOST-SUFFIX,pornhub.com,DIRECT
+HOST-SUFFIX,pornhubpremium.com,DIRECT
+
+# Qobuz
+HOST-SUFFIX,qobuz.com,DIRECT
+
+# SoundCloud
+USER-AGENT,SoundCloud*,DIRECT
+HOST-SUFFIX,p-cdn.us,DIRECT
+HOST-SUFFIX,sndcdn.com,DIRECT
+HOST-SUFFIX,soundcloud.com,DIRECT
+
+# Spotify
+USER-AGENT,Spotify*,DIRECT
+HOST-KEYWORD,-spotify-,DIRECT
+HOST-KEYWORD,spotify.com,DIRECT
+HOST-SUFFIX,pscdn.co,DIRECT
+HOST-SUFFIX,scdn.co,DIRECT
+HOST-SUFFIX,spoti.fi,DIRECT
+HOST-SUFFIX,spotify.com,DIRECT
+HOST-SUFFIX,spotifycdn.com,DIRECT
+HOST-SUFFIX,spotifycdn.net,DIRECT
+
+# TIDAL
+USER-AGENT,TIDAL*,DIRECT
+HOST-SUFFIX,tidal-cms.s3.amazonaws.com,DIRECT
+HOST-SUFFIX,tidal.com,DIRECT
+HOST-SUFFIX,tidalhifi.com,DIRECT
+
+# TaiWanGood 台湾好
+USER-AGENT,TaiwanGood*,DIRECT
+HOST,hamifans.emome.net,DIRECT
+HOST-SUFFIX,skyking.com.tw,DIRECT
+
+# TikTok
+USER-AGENT,TikTok*,DIRECT
+HOST-KEYWORD,tiktokcdn,DIRECT
+HOST-SUFFIX,byteoversea.com,DIRECT
+HOST-SUFFIX,ibytedtos.com,DIRECT
+HOST-SUFFIX,ipstatp.com,DIRECT
+HOST-SUFFIX,muscdn.com,DIRECT
+HOST-SUFFIX,musical.ly,DIRECT
+HOST-SUFFIX,tik-tokapi.com,DIRECT
+HOST-SUFFIX,tiktok.com,DIRECT
+HOST-SUFFIX,tiktokcdn.com,DIRECT
+HOST-SUFFIX,tiktokv.com,DIRECT
+
+# Twitch
+HOST-KEYWORD,ttvnw,DIRECT
+HOST-SUFFIX,ext-twitch.tv,DIRECT
+HOST-SUFFIX,jtvnw.net,DIRECT
+HOST-SUFFIX,ttvnw.net,DIRECT
+HOST-SUFFIX,twitch-ext.rootonline.de,DIRECT
+HOST-SUFFIX,twitch.tv,DIRECT
+HOST-SUFFIX,twitchcdn.net,DIRECT
+
+# ViuTV
+USER-AGENT,Viu*,DIRECT
+
+
+
+HOST,api.viu.now.com,DIRECT
+HOST,d1k2us671qcoau.cloudfront.net,DIRECT
+HOST,d2anahhhmp1ffz.cloudfront.net,DIRECT
+HOST,dfp6rglgjqszk.cloudfront.net,DIRECT
+HOST-SUFFIX,cognito-identity.us-east-1.amazonaws.com,DIRECT
+HOST-SUFFIX,d1k2us671qcoau.cloudfront.net,DIRECT
+HOST-SUFFIX,d2anahhhmp1ffz.cloudfront.net,DIRECT
+HOST-SUFFIX,dfp6rglgjqszk.cloudfront.net,DIRECT
+HOST-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,DIRECT
+HOST-SUFFIX,viu.com,DIRECT
+HOST-SUFFIX,viu.now.com,DIRECT
+HOST-SUFFIX,viu.tv,DIRECT
+
+# YouTube
+USER-AGENT,*youtube*,DIRECT
+USER-AGENT,YouTube*,DIRECT
+USER-AGENT,com.google.ios.youtube*,DIRECT
+HOST-KEYWORD,youtube,DIRECT
+HOST,youtubei.googleapis.com,DIRECT
+HOST,yt3.ggpht.com,DIRECT
+HOST-SUFFIX,googlevideo.com,DIRECT
+HOST-SUFFIX,gvt2.com,DIRECT
+HOST-SUFFIX,withyoutube.com,DIRECT
+HOST-SUFFIX,youtu.be,DIRECT
+HOST-SUFFIX,youtube-nocookie.com,DIRECT
+HOST-SUFFIX,youtube.com,DIRECT
+HOST-SUFFIX,youtubeeducation.com,DIRECT
+HOST-SUFFIX,youtubegaming.com,DIRECT
+HOST-SUFFIX,youtubekids.com,DIRECT
+HOST-SUFFIX,yt.be,DIRECT
+HOST-SUFFIX,ytimg.com,DIRECT
+
+# YouTubeMusic
+USER-AGENT,*YouTubeMusic*,DIRECT
+USER-AGENT,*com.google.ios.youtubemusic*,DIRECT
+USER-AGENT,YouTubeMusic*,DIRECT
+USER-AGENT,com.google.ios.youtubemusic*,DIRECT
+HOST,music.youtube.com,DIRECT

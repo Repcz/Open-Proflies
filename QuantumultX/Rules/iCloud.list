@@ -1,0 +1,65 @@
+# NAME: iCloud
+# AUTHOR: blackmatrix7
+# REPO: https:
+# UPDATED: 2023-10-07 14:17:49
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 57
+# TOTAL: 58
+HOST-SUFFIX,apple-cloudkit.com,DIRECT
+HOST-SUFFIX,apple-icloud.cn,DIRECT
+HOST-SUFFIX,apple-livephotoskit.com,DIRECT
+HOST-SUFFIX,appleicloud.cn,DIRECT
+HOST-SUFFIX,applemx-icloud.com,DIRECT
+HOST-SUFFIX,apzones.com,DIRECT
+HOST-SUFFIX,cdn-apple.com,DIRECT
+HOST-SUFFIX,gc.apple.com,DIRECT
+HOST-SUFFIX,icloud-apple.cn,DIRECT
+HOST-SUFFIX,icloud-content.com,DIRECT
+HOST-SUFFIX,icloud-isupport.com,DIRECT
+HOST-SUFFIX,icloud.apple.com,DIRECT
+HOST-SUFFIX,icloud.ch,DIRECT
+HOST-SUFFIX,icloud.com,DIRECT
+HOST-SUFFIX,icloud.com.cn,DIRECT
+HOST-SUFFIX,icloud.de,DIRECT
+HOST-SUFFIX,icloud.ee,DIRECT
+HOST-SUFFIX,icloud.fi,DIRECT
+HOST-SUFFIX,icloud.fr,DIRECT
+HOST-SUFFIX,icloud.hu,DIRECT
+HOST-SUFFIX,icloud.ie,DIRECT
+HOST-SUFFIX,icloud.is,DIRECT
+HOST-SUFFIX,icloud.jp,DIRECT
+HOST-SUFFIX,icloud.lv,DIRECT
+HOST-SUFFIX,icloud.net.cn,DIRECT
+HOST-SUFFIX,icloud.om,DIRECT
+HOST-SUFFIX,icloud.org,DIRECT
+HOST-SUFFIX,icloud.pt,DIRECT
+HOST-SUFFIX,icloud.ro,DIRECT
+HOST-SUFFIX,icloud.se,DIRECT
+HOST-SUFFIX,icloud.si,DIRECT
+HOST-SUFFIX,icloud.sk,DIRECT
+HOST-SUFFIX,icloud.vn,DIRECT
+HOST-SUFFIX,icloudads.net,DIRECT
+HOST-SUFFIX,icloudapple.cn,DIRECT
+HOST-SUFFIX,icloudbox.net,DIRECT
+HOST-SUFFIX,icloudbrowser.net,DIRECT
+HOST-SUFFIX,icloude.com,DIRECT
+HOST-SUFFIX,icloudhome.com,DIRECT
+HOST-SUFFIX,icloudmail.net,DIRECT
+HOST-SUFFIX,icloudmusic.net,DIRECT
+HOST-SUFFIX,icloudnet.net,DIRECT
+HOST-SUFFIX,icloudo.com,DIRECT
+HOST-SUFFIX,icloudo.de,DIRECT
+HOST-SUFFIX,icloudo.net,DIRECT
+HOST-SUFFIX,icloudos.de,DIRECT
+HOST-SUFFIX,icloudos.net,DIRECT
+HOST-SUFFIX,icloudpay.net,DIRECT
+HOST-SUFFIX,icloudsecure.net,DIRECT
+HOST-SUFFIX,icloudsetup.com,DIRECT
+HOST-SUFFIX,ios-icloud.com,DIRECT
+HOST-SUFFIX,iwork.apple.com,DIRECT
+HOST-SUFFIX,me.com,DIRECT
+HOST-SUFFIX,myicloud.net,DIRECT
+HOST-SUFFIX,mylcloud.net,DIRECT
+HOST-SUFFIX,www-cdn.icloud.com.akadns.net,DIRECT
+HOST-SUFFIX,wwwicloud.com,DIRECT
+HOST-KEYWORD,icloud.com.akadns.net,DIRECT

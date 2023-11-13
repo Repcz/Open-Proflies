@@ -1,0 +1,10 @@
+# NAME: TestFlight
+# AUTHOR: blackmatrix7
+# REPO: https:
+# UPDATED: 2023-10-07 14:17:49
+# DOMAIN: 2
+# HOST-KEYWORD: 1
+# TOTAL: 3
+HOST,beta.apple.com,DIRECT
+HOST,testflight.apple.com,DIRECT
+HOST-KEYWORD,testflight,DIRECT
