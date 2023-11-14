@@ -1,4 +1,4 @@
-### 规则源自 [@ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) [@NobyDa](https://github.com/NobyDa) [@VirgilClyne](https://github.com/VirgilClyne) [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule) [@dler-io](https://github.com/dler-io/Rules) [@missuo](https://github.com/missuo/ASN-China) 
+### 规则源自 [@ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) [@NobyDa](https://github.com/NobyDa) [@VirgilClyne](https://github.com/VirgilClyne) [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule) [@dler-io](https://github.com/dler-io/Rules) [@missuo](https://github.com/missuo/ASN-China) [@RuCu6](https://github.com/RuCu6/QuanX) [@imbopro](https://github.com/limbopro/Adblock4limbo)
 
 ### 代码都是ChatGPT写的，有遗漏或错误请自行修改
 
