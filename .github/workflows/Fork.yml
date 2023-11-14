@@ -62,6 +62,12 @@ jobs:
         curl -L -o Open-Proflies-repo/Surge/Rules/AD-RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/AD-dler-io.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
 
+        # fmz200
+        curl -L -o Open-Proflies-repo/Surge/Rules/Ads_fmz200_DomainSet.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/Ads_fmz200_RuleSet.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/Direct_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+
+
     - name: Edit Surge/Rules
       run: |
         cd Open-Proflies-repo/Surge/Rules
