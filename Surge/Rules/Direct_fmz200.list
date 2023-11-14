@@ -8,128 +8,128 @@
 #!date=2023-11-06 21:30:00
 #!proxy-select=direct
 #############################################
-# > "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
-# > "reject-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
-# > "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
-# > "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
-# > "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
+# > "REJECT"        策略返回 HTTP 状态码 404,不附带任何额外内容
+# > "REJECT-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
+# > "REJECT-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
+# > "REJECT-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
+# > "REJECT-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
 #############################################
 
 
 
 # >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
-host,ad.12306.cn,direct
+DOMAIN,ad.12306.cn,direct
 
 
 
 
 # >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
 # > anti-ad
-host-keyword,anti-ad.net,direct
+DOMAIN-KEYWORD,anti-ad.net,direct
 
 # > Alibaba
-host,log.mmstat.com,direct
-host,sycm.mmstat.com,direct
+DOMAIN,log.mmstat.com,direct
+DOMAIN,sycm.mmstat.com,direct
 
 # > 爱影视
-host,static.jssp.tv,direct
-host,lain.bgm.tv,direct
-host,tiao.cjkypo.com,direct
-host,ok.zuidapic.com,direct
-host,ts.thefilehosting.com,direct
-host,deo.shopeemobile.com,direct
-host,m3u8.255tv.tk,direct
-host,m3u8.mstopq.com,direct
-host,ain.bgm.tv,direct
-host-keyword,vip.lz-cdn,direct
-host-keyword,ax1x.com,direct
-host-keyword,o.lencr.org,direct
-host-keyword,ttcdn-tos.kkimg.cc,direct
+DOMAIN,static.jssp.tv,direct
+DOMAIN,lain.bgm.tv,direct
+DOMAIN,tiao.cjkypo.com,direct
+DOMAIN,ok.zuidapic.com,direct
+DOMAIN,ts.thefileHOSTing.com,direct
+DOMAIN,deo.shopeemobile.com,direct
+DOMAIN,m3u8.255tv.tk,direct
+DOMAIN,m3u8.mstopq.com,direct
+DOMAIN,ain.bgm.tv,direct
+DOMAIN-KEYWORD,vip.lz-cdn,direct
+DOMAIN-KEYWORD,ax1x.com,direct
+DOMAIN-KEYWORD,o.lencr.org,direct
+DOMAIN-KEYWORD,ttcdn-tos.kkimg.cc,direct
 
 
 
 # >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
 # > 大师兄影视
-host,sdk.alibaba.com.ailbaba.me,direct
-host,img.ffzypic.com,direct
-host,img.liangzipic.com,direct
-host,img.bfzypic.com,direct
-host,img.kuaikanzy.net,direct
-host,vip.imgffzy.com,direct
-host,vip.ffzyread.com,direct
-host,cdn.jsdelivr.net,direct
-host,image.maimn.com,direct
-host-keyword,bfzycdn.com,direct
-host-keyword,vip.kuaikan-cdn,direct
-host-keyword,vip.ffzy-play,direct
-host-keyword,vip.ffzy-online,direct
+DOMAIN,sdk.alibaba.com.ailbaba.me,direct
+DOMAIN,img.ffzypic.com,direct
+DOMAIN,img.liangzipic.com,direct
+DOMAIN,img.bfzypic.com,direct
+DOMAIN,img.kuaikanzy.net,direct
+DOMAIN,vip.imgffzy.com,direct
+DOMAIN,vip.ffzyread.com,direct
+DOMAIN,cdn.jsdelivr.net,direct
+DOMAIN,image.maimn.com,direct
+DOMAIN-KEYWORD,bfzycdn.com,direct
+DOMAIN-KEYWORD,vip.kuaikan-cdn,direct
+DOMAIN-KEYWORD,vip.ffzy-play,direct
+DOMAIN-KEYWORD,vip.ffzy-online,direct
 
 
 
 # >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
 # > 苹果推送服务
-host-keyword,push.apple.com,direct
+DOMAIN-KEYWORD,push.apple.com,direct
 # > 苹果时间同步
-host,time.apple.com,direct
+DOMAIN,time.apple.com,direct
 # > 苹果天气服务
-host-keyword,weather-edge.apple.com,direct
-host-keyword,weather-adge.apple.com,direct
-host-suffix,weather-data.apple.com,direct
-host-suffix,weather-map.apple.com,direct
-host-suffix,weather-analytics-events.apple.com,direct
+DOMAIN-KEYWORD,weather-edge.apple.com,direct
+DOMAIN-KEYWORD,weather-adge.apple.com,direct
+DOMAIN-SUFFIX,weather-data.apple.com,direct
+DOMAIN-SUFFIX,weather-map.apple.com,direct
+DOMAIN-SUFFIX,weather-analytics-events.apple.com,direct
 # > 苹果内购服务
-host-keyword,buy.itunes.apple.com,direct
+DOMAIN-KEYWORD,buy.itunes.apple.com,direct
 # > 苹果icloud
-host-keyword,icloud.com,direct
+DOMAIN-KEYWORD,icloud.com,direct
 # > 苹果输入法相关服务
-host-keyword,api.smoot.apple.com,direct
-host-keyword,api.smoot.apple.cn,direct
+DOMAIN-KEYWORD,api.smoot.apple.com,direct
+DOMAIN-KEYWORD,api.smoot.apple.cn,direct
 # > 苹果iMessage服务
-host,init.ess.apple.com,direct
+DOMAIN,init.ess.apple.com,direct
 # > 苹果其他服务
-host-keyword,ssl.apple.com,direct
-host-keyword,humb.apple.com,direct
-host,smp-device-content.apple.com,direct
-host-keyword,api-adservices.apple.com,direct
-host-keyword,ls.apple.com,direct
-host-keyword,gsa.apple.com,direct
-host-keyword,ess.apple.com,direct
+DOMAIN-KEYWORD,ssl.apple.com,direct
+DOMAIN-KEYWORD,humb.apple.com,direct
+DOMAIN,smp-device-content.apple.com,direct
+DOMAIN-KEYWORD,api-adservices.apple.com,direct
+DOMAIN-KEYWORD,ls.apple.com,direct
+DOMAIN-KEYWORD,gsa.apple.com,direct
+DOMAIN-KEYWORD,ess.apple.com,direct
 # > 苹果app store
-host,itunes.apple.com,direct
+DOMAIN,itunes.apple.com,direct
 
 
 
 # >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
 # > QQ空间
-host-keyword,ctc.qzs.qzone.qq.com,direct
+DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com,direct
 
 
 # >>>>>>>>>>>>>>> ✅ S ✅ <<<<<<<<<<<<<<
 # > Strava
-host,analytics.strava.com,direct
+DOMAIN,analytics.strava.com,direct
 
 
 
 # >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
 # > Tencent
-host,fairplay.l.qq.com,direct
-host,livew.l.qq.com,direct
-host,vd.l.qq.com,direct
-host,vi.l.qq.com,direct
+DOMAIN,fairplay.l.qq.com,direct
+DOMAIN,livew.l.qq.com,direct
+DOMAIN,vd.l.qq.com,direct
+DOMAIN,vi.l.qq.com,direct
 
 
 
 # >>>>>>>>>>>>>>> ✅ U ✅ <<<<<<<<<<<<<<
 # > Umeng
-host,msg.umeng.com,direct
-host,msg.umengcloud.com,direct
+DOMAIN,msg.umeng.com,direct
+DOMAIN,msg.umengcloud.com,direct
 
 
 
 # >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
 # > 携程
-host-keyword,aw-s.tripcdn.com,direct
-host-keyword,trip.com,direct
+DOMAIN-KEYWORD,aw-s.tripcdn.com,direct
+DOMAIN-KEYWORD,trip.com,direct
 
 
 
