@@ -69,7 +69,7 @@ jobs:
           if [ -f "$file" ]; then
             # 修改, 为,
             sed -i 's/, /,/g' "$file"
-            # 删除不必要的规则
+            # 删除不必要的部分
             sed -i 's/,REJECT//g' "$file"
             # 修改HOST为DOMAIN
             sed -i 's/HOST,/DOMAIN,/g' "$file"
@@ -120,9 +120,13 @@ jobs:
             mv tmpfile "$file"
             awk '{sub("IP-CIDR,.*$", ""); print}' "$file" > tmpfile
             mv tmpfile "$file"
+            awk '{sub("IP-CIDR6,.*$", ""); print}' "$file" > tmpfile
+            mv tmpfile "$file"
             awk '{sub("IP-ASN.*$", ""); print}' "$file" > tmpfile
             mv tmpfile "$file"
             awk '{sub("URL-REGEX.*$", ""); print}' "$file" > tmpfile
+            mv tmpfile "$file"
+            awk '{sub("USER-AGENT.*$", ""); print}' "$file" > tmpfile
             mv tmpfile "$file"
             awk '{sub("OR,.*$", ""); print}' "$file" > tmpfile
             mv tmpfile "$file"
