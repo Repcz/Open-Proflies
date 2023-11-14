@@ -60,7 +60,7 @@ jobs:
         curl -L -o Open-Proflies-repo/Surge/Rules/AdGuardChinese_DomainSet.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/AD-RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
-        curl -L -o Open-Proflies-repo/Surge/Rules/AD-dler-io.list.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/AD-dler-io.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
 
     - name: Edit Surge/Rules
       run: |
