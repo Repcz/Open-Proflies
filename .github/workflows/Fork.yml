@@ -56,17 +56,23 @@ jobs:
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_EasyListPrivacy_DomainSet.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_Dlerio_DomainSet.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_Dlerio_RuleSet.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/AdGuardChinese_DomainSet.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+       
+        # 旧规则
         curl -L -o Open-Proflies-repo/Surge/Rules/AD-RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/AD-dler-io.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
-
+        
         # fmz200
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_fmz200_DomainSet.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_fmz200_RuleSet.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Direct_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
-
+        curl -L -o Open-Proflies-repo/Surge/Rules/Ads_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
 
     - name: Edit Surge/Rules
       run: |
