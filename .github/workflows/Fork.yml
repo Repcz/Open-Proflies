@@ -56,14 +56,15 @@ jobs:
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_EasyListPrivacy_DomainSet.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_Dlerio_DomainSet.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_Dlerio_RuleSet.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/AdGuardChinese_DomainSet.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
 
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
-        curl -L -o Open-Proflies-repo/Surge/Rules/AdGuardChinese_DomainSet.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
-       
+        curl -L -o Open-Proflies-repo/Surge/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+
         # 旧规则
         curl -L -o Open-Proflies-repo/Surge/Rules/AD-RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/AD-dler-io.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
@@ -156,7 +157,19 @@ jobs:
             echo "$file not found."
           fi
         done
-      
+
+    - name: Edit Surge/Rules/AdGuardChinese.list
+      run: |
+        cd Open-Proflies-repo/Surge/Rules
+        for file in AdGuardChinese.list; do
+          if [ -f "$file" ]; then
+          # 将每一行的第一个点替换为 DOMAIN-SUFFIX,
+          sed -i 's/^\./DOMAIN-SUFFIX,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
     - name: Download files to Clash
       run: |
         mkdir -p Open-Proflies-repo/Clash/Rules
