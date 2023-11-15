@@ -171,6 +171,19 @@ jobs:
           fi
         done
 
+    - name: Edit Surge/Rules/Ads_*.list
+      run: |
+        cd Open-Proflies-repo/Surge/Rules
+        for file in Ads_*.list AD-*.list; do
+          if [ -f "$file" ]; then
+          # 在包含 DOMAIN-SUFFIX,|的行的最后面添加 ,extended-matching
+          sed -i '/^DOMAIN-SUFFIX,DOMAIN,/ s/$/,extended-matching/' "$file"
+          sed -i '/^DOMAIN,/ s/$/,extended-matching/' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
     - name: Download files to Clash
       run: |
         mkdir -p Open-Proflies-repo/Clash/Rules
