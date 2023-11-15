@@ -164,7 +164,7 @@ jobs:
         cd Open-Proflies-repo/Surge/Rules
         for file in AdGuardChinese.list; do
           if [ -f "$file" ]; then
-          # 将每一行的第一个点替换为 DOMAIN-SUFFIX,
+          # 将每一行的第一个.替换为 DOMAIN-SUFFIX,
           sed -i 's/^\./DOMAIN-SUFFIX,/g' "$file"
           else
             echo "$file not found."
@@ -176,7 +176,7 @@ jobs:
         cd Open-Proflies-repo/Surge/Rules
         for file in Ads_*.list AD-*.list; do
           if [ -f "$file" ]; then
-          # 在包含 DOMAIN-SUFFIX,|的行的最后面添加 ,extended-matching
+          # 在包含 DOMAIN的行的最后面添加 ,extended-matching
           sed -i '/^DOMAIN-SUFFIX,/ s/$/,extended-matching/' "$file"
           sed -i '/^DOMAIN,/ s/$/,extended-matching/' "$file"
           else
