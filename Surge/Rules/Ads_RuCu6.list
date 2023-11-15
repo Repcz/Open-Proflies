@@ -5,7 +5,7 @@
 DOMAIN,ossgw.alicdn.com,extended-matching
 DOMAIN,ems.youku.com,extended-matching
 DOMAIN,hudong.alicdn.com,extended-matching
-DOMAIN-SUFFIX,ut.taobao.com
+DOMAIN-SUFFIX,ut.taobao.com,extended-matching
 # 阿里云盘
 IP-CIDR,203.107.1.1/24,no-resolve
 # 爱奇艺
@@ -22,18 +22,18 @@ DOMAIN,iadmoo.apple.com,extended-matching
 DOMAIN,iadworkbench.apple.com,extended-matching
 DOMAIN,launch.apple.com,extended-matching
 DOMAIN,qwapi.apple.com,extended-matching
-DOMAIN-SUFFIX,advp.apple.com
-DOMAIN-SUFFIX,iad-apple.com
-DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,advp.apple.com,extended-matching
+DOMAIN-SUFFIX,iad-apple.com,extended-matching
+DOMAIN-SUFFIX,iadsdk.apple.com,extended-matching
 # 安全浏览限制解除
 DOMAIN,lookup.api.bsb.baidu.com,extended-matching
-DOMAIN-SUFFIX,u3.ucweb.com
+DOMAIN-SUFFIX,u3.ucweb.com,extended-matching
 DOMAIN-KEYWORD,safebrowsing.
 
 # ======= B ======= #
 # 百度
 DOMAIN,mobads.baidu.com,extended-matching
-DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com,extended-matching
 # 百度地图
 DOMAIN,afd.baidu.com,extended-matching
 DOMAIN,afdconf.baidu.com,extended-matching
@@ -64,7 +64,7 @@ DOMAIN,md-i-s.apptimize.com,extended-matching
 # Foreca & Google
 DOMAIN,pagead2.googlesyndication.com,extended-matching
 DOMAIN,www.googleadservices.com,extended-matching
-DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adservice.google.com,extended-matching
 DOMAIN-KEYWORD,ads.g.doubleclick
 
 # ======= G ======= #
@@ -79,7 +79,7 @@ DOMAIN,i.snssdk.com,extended-matching
 DOMAIN,is.snssdk.com,extended-matching
 DOMAIN,mi.gdt.qq.com,extended-matching
 DOMAIN,open.e.kuaishou.com,extended-matching
-DOMAIN-SUFFIX,miaozhen.com
+DOMAIN-SUFFIX,miaozhen.com,extended-matching
 DOMAIN-KEYWORD,pangolin-sdk-toutiao
 DOMAIN-KEYWORD,pangolin.snssdk.com
 DOMAIN-KEYWORD,pglstatp-toutiao
@@ -87,7 +87,7 @@ DOMAIN-KEYWORD,video-cn.snssdk.com
 
 # ======= H ======= #
 # 海尔智家
-DOMAIN-SUFFIX,ehaier.com
+DOMAIN-SUFFIX,ehaier.com,extended-matching
 
 # ======= J ======= #
 # 建设银行
@@ -125,7 +125,7 @@ DOMAIN,rc-topic-api.bz.mgtv.com,extended-matching
 DOMAIN,rprain.bz.mgtv.com,extended-matching
 DOMAIN,rprain.log.mgtv.com,extended-matching
 DOMAIN,vip.bz.mgtv.com,extended-matching
-DOMAIN-SUFFIX,da.mgtv.com
+DOMAIN-SUFFIX,da.mgtv.com,extended-matching
 # 美团
 DOMAIN,al-log.d.meituan.net,extended-matching
 DOMAIN,babel-statistics-android.d.meituan.net,extended-matching
@@ -146,7 +146,7 @@ DOMAIN,sin3-ib.adnxs.com,extended-matching
 # 什么值得买
 DOMAIN,api.zuihuimai.com,extended-matching
 # 数字联盟
-DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,shuzilm.cn,extended-matching
 
 # ======= T ======= #
 # 腾讯
@@ -164,7 +164,7 @@ DOMAIN,rpt.gdt.qq.com,extended-matching
 DOMAIN,tpns.qq.com,extended-matching
 DOMAIN,tytx.m.cn.miaozhen.com,extended-matching
 DOMAIN,vv6.video.qq.com,extended-matching
-DOMAIN-SUFFIX,trace.qq.com
+DOMAIN-SUFFIX,trace.qq.com,extended-matching
 IP-CIDR,47.110.187.87/32,no-resolve
 # 腾讯QQ
 DOMAIN,ipv4.gdt.qq.com,extended-matching
@@ -178,9 +178,9 @@ DOMAIN,iadmat.nosdn.127.net,extended-matching
 DOMAIN,iadmatapk.nosdn.127.net,extended-matching
 DOMAIN,iadmusicmat.music.126.net,extended-matching
 DOMAIN,iadmusicmatvideo.music.126.net,extended-matching
-DOMAIN-SUFFIX,163jiasu.com
+DOMAIN-SUFFIX,163jiasu.com,extended-matching
 # 微博 开屏广告
-DOMAIN-SUFFIX,biz.weibo.com
+DOMAIN-SUFFIX,biz.weibo.com,extended-matching
 
 # ======= X ======= #
 # 小米

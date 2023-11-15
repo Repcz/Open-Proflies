@@ -23,138 +23,138 @@
 #DOMAIN,delivery-node-aziz.voe-network.net
 #DOMAIN,inspiringaccurate.com
 #DOMAIN,track.aso1.net
-DOMAIN-SUFFIX,v3.fstats.xyz
-DOMAIN-SUFFIX,wpadmngr.com
-DOMAIN-SUFFIX,histats.com
-DOMAIN-SUFFIX,son-in-lawmorbid.com
-DOMAIN-SUFFIX,mc.yandex.ru
-DOMAIN-SUFFIX,amung.us
-DOMAIN-SUFFIX,widgets.amung.us
-DOMAIN-SUFFIX,s10.histats.com
-DOMAIN-SUFFIX,eyebrowscrambledlater.com
-DOMAIN-SUFFIX,a.realsrv.com
-DOMAIN-SUFFIX,media.aso1.net
-DOMAIN-SUFFIX,js.wpshsdk.com
-DOMAIN-SUFFIX,js.wpushsdk.com
-DOMAIN-SUFFIX,9e77b6e6e2.2e3f31faae.com
-DOMAIN-SUFFIX,playersb.com
+DOMAIN-SUFFIX,v3.fstats.xyz,extended-matching
+DOMAIN-SUFFIX,wpadmngr.com,extended-matching
+DOMAIN-SUFFIX,histats.com,extended-matching
+DOMAIN-SUFFIX,son-in-lawmorbid.com,extended-matching
+DOMAIN-SUFFIX,mc.yandex.ru,extended-matching
+DOMAIN-SUFFIX,amung.us,extended-matching
+DOMAIN-SUFFIX,widgets.amung.us,extended-matching
+DOMAIN-SUFFIX,s10.histats.com,extended-matching
+DOMAIN-SUFFIX,eyebrowscrambledlater.com,extended-matching
+DOMAIN-SUFFIX,a.realsrv.com,extended-matching
+DOMAIN-SUFFIX,media.aso1.net,extended-matching
+DOMAIN-SUFFIX,js.wpshsdk.com,extended-matching
+DOMAIN-SUFFIX,js.wpushsdk.com,extended-matching
+DOMAIN-SUFFIX,9e77b6e6e2.2e3f31faae.com,extended-matching
+DOMAIN-SUFFIX,playersb.com,extended-matching
 #DOMAIN-SUFFIX,dood.la
 
 ##### https://www.tvc.cc/  
-DOMAIN-SUFFIX,42yenxh.cn
-DOMAIN-SUFFIX,dwyhup.cn
-DOMAIN-SUFFIX,netdjs.net
-DOMAIN-SUFFIX,pc.stgowan.com
+DOMAIN-SUFFIX,42yenxh.cn,extended-matching
+DOMAIN-SUFFIX,dwyhup.cn,extended-matching
+DOMAIN-SUFFIX,netdjs.net,extended-matching
+DOMAIN-SUFFIX,pc.stgowan.com,extended-matching
 
 ##### https://avple.tv/  
-DOMAIN-SUFFIX,tapioni.com
+DOMAIN-SUFFIX,tapioni.com,extended-matching
 #DOMAIN-SUFFIX,107iwh.cn:4032
 #DOMAIN-SUFFIX,qinhemuye.com:443
-DOMAIN-SUFFIX,107iwh.cn
-DOMAIN-SUFFIX,hbhuatie.com
-DOMAIN-SUFFIX,qinzhihao.com
-DOMAIN-SUFFIX,nby360.com
-DOMAIN-SUFFIX,tfosrv.com
-DOMAIN-SUFFIX,trafforsrv.com
-DOMAIN-SUFFIX,trafficforce.com
-DOMAIN-SUFFIX,s.csyfe.com
+DOMAIN-SUFFIX,107iwh.cn,extended-matching
+DOMAIN-SUFFIX,hbhuatie.com,extended-matching
+DOMAIN-SUFFIX,qinzhihao.com,extended-matching
+DOMAIN-SUFFIX,nby360.com,extended-matching
+DOMAIN-SUFFIX,tfosrv.com,extended-matching
+DOMAIN-SUFFIX,trafforsrv.com,extended-matching
+DOMAIN-SUFFIX,trafficforce.com,extended-matching
+DOMAIN-SUFFIX,s.csyfe.com,extended-matching
 
 ##### https://www.tvn.cc/ 韩剧TV  
-DOMAIN-SUFFIX,qw2v.changshuohr.net
-DOMAIN-SUFFIX,wss.haoyundmn.com
+DOMAIN-SUFFIX,qw2v.changshuohr.net,extended-matching
+DOMAIN-SUFFIX,wss.haoyundmn.com,extended-matching
 
 ##### missav.com  
-DOMAIN-SUFFIX,creative.live.missav.com
-DOMAIN-SUFFIX,cashewsforlife208.com
-DOMAIN-SUFFIX,ingest.sentry
-DOMAIN-SUFFIX,phloxsub73ulata.com
-DOMAIN-SUFFIX,xxxjmp.com
-DOMAIN-SUFFIX,pitrespite.com
-DOMAIN-SUFFIX,alexametrics.com
-DOMAIN-SUFFIX,designslicensedeep.com
-DOMAIN-SUFFIX,a.bestcontentfood.top
-DOMAIN-SUFFIX,tsyndicate.com
-DOMAIN-SUFFIX,cashewsforlife208.com
-DOMAIN-SUFFIX,e67repidwnfu7gcha.com
-DOMAIN-SUFFIX,mc7clurd09pla4nrtat7ion.com
-DOMAIN-SUFFIX,e67repidwnfu7gcha.com
-DOMAIN-SUFFIX,wuzbhjpvsf.com
-DOMAIN-SUFFIX,a.realsrv.com
+DOMAIN-SUFFIX,creative.live.missav.com,extended-matching
+DOMAIN-SUFFIX,cashewsforlife208.com,extended-matching
+DOMAIN-SUFFIX,ingest.sentry,extended-matching
+DOMAIN-SUFFIX,phloxsub73ulata.com,extended-matching
+DOMAIN-SUFFIX,xxxjmp.com,extended-matching
+DOMAIN-SUFFIX,pitrespite.com,extended-matching
+DOMAIN-SUFFIX,alexametrics.com,extended-matching
+DOMAIN-SUFFIX,designslicensedeep.com,extended-matching
+DOMAIN-SUFFIX,a.bestcontentfood.top,extended-matching
+DOMAIN-SUFFIX,tsyndicate.com,extended-matching
+DOMAIN-SUFFIX,cashewsforlife208.com,extended-matching
+DOMAIN-SUFFIX,e67repidwnfu7gcha.com,extended-matching
+DOMAIN-SUFFIX,mc7clurd09pla4nrtat7ion.com,extended-matching
+DOMAIN-SUFFIX,e67repidwnfu7gcha.com,extended-matching
+DOMAIN-SUFFIX,wuzbhjpvsf.com,extended-matching
+DOMAIN-SUFFIX,a.realsrv.com,extended-matching
 
 ##### Jable.tv av吃到饱  
-DOMAIN-SUFFIX,a.shukriya90.com
-DOMAIN-SUFFIX,a.shukriya90.com
-DOMAIN-SUFFIX,creative.xlviirdr.com
-DOMAIN-SUFFIX,realsrv.com
-DOMAIN-SUFFIX,asewlfjqwlflkew.com
-DOMAIN-SUFFIX,uus52.com
-DOMAIN-SUFFIX,uus58.com
-DOMAIN-SUFFIX,ddmax20.xyz
-DOMAIN-SUFFIX,ads.exosrv.com
+DOMAIN-SUFFIX,a.shukriya90.com,extended-matching
+DOMAIN-SUFFIX,a.shukriya90.com,extended-matching
+DOMAIN-SUFFIX,creative.xlviirdr.com,extended-matching
+DOMAIN-SUFFIX,realsrv.com,extended-matching
+DOMAIN-SUFFIX,asewlfjqwlflkew.com,extended-matching
+DOMAIN-SUFFIX,uus52.com,extended-matching
+DOMAIN-SUFFIX,uus58.com,extended-matching
+DOMAIN-SUFFIX,ddmax20.xyz,extended-matching
+DOMAIN-SUFFIX,ads.exosrv.com,extended-matching
 DOMAIN-KEYWORD,exosrv
 DOMAIN-KEYWORD,asewlfjqwlflkew
-DOMAIN-SUFFIX,tyrantdb.com
-DOMAIN-SUFFIX,adserve.work
+DOMAIN-SUFFIX,tyrantdb.com,extended-matching
+DOMAIN-SUFFIX,adserve.work,extended-matching
 
 ##### nfmovies.com 奈菲影视  
 DOMAIN-KEYWORD,brushshopy
 DOMAIN-KEYWORD,onenews
-DOMAIN-SUFFIX,s96.cnzz.com
+DOMAIN-SUFFIX,s96.cnzz.com,extended-matching
 #DOMAIN-SUFFIX,yabo729.com
 
 ###### m.pianku.me/ 手机片库网  
-DOMAIN-SUFFIX,xn--3bs795g.zone
-DOMAIN-SUFFIX,xn--2qux23c9ziyrq.plus
-DOMAIN-SUFFIX,xn--2qux23c9ziyrq.club
-DOMAIN-SUFFIX,xn--xhq9mt12cf5v.xn--io0a7i
-DOMAIN-SUFFIX,ddmax20.xyz
-DOMAIN-SUFFIX,xn--3bs795g.link
-DOMAIN-SUFFIX,show.suning.beer
-DOMAIN-SUFFIX,www.govshenzhen.cn
-DOMAIN-SUFFIX,mm9842.com
+DOMAIN-SUFFIX,xn--3bs795g.zone,extended-matching
+DOMAIN-SUFFIX,xn--2qux23c9ziyrq.plus,extended-matching
+DOMAIN-SUFFIX,xn--2qux23c9ziyrq.club,extended-matching
+DOMAIN-SUFFIX,xn--xhq9mt12cf5v.xn--io0a7i,extended-matching
+DOMAIN-SUFFIX,ddmax20.xyz,extended-matching
+DOMAIN-SUFFIX,xn--3bs795g.link,extended-matching
+DOMAIN-SUFFIX,show.suning.beer,extended-matching
+DOMAIN-SUFFIX,www.govshenzhen.cn,extended-matching
+DOMAIN-SUFFIX,mm9842.com,extended-matching
 DOMAIN-KEYWORD,e2wysbacctt1
 #DOMAIN-SUFFIX,streamtape.com
 
 ##### netflav.com Netflav  
-DOMAIN-SUFFIX,maphuahin.com
-DOMAIN-SUFFIX,ggsfq.com
-DOMAIN-SUFFIX,ad.pornimg.xyz
-DOMAIN-SUFFIX,yandex.ru
-DOMAIN-SUFFIX,awaitcola.com
+DOMAIN-SUFFIX,maphuahin.com,extended-matching
+DOMAIN-SUFFIX,ggsfq.com,extended-matching
+DOMAIN-SUFFIX,ad.pornimg.xyz,extended-matching
+DOMAIN-SUFFIX,yandex.ru,extended-matching
+DOMAIN-SUFFIX,awaitcola.com,extended-matching
 #DOMAIN-SUFFIX,jsdelivr.net
-DOMAIN-SUFFIX,wine-api.net
+DOMAIN-SUFFIX,wine-api.net,extended-matching
 #DOMAIN-KEYWORD,wixsite.com
-DOMAIN-SUFFIX,exosrv.com
-DOMAIN-SUFFIX,juicyads.com
+DOMAIN-SUFFIX,exosrv.com,extended-matching
+DOMAIN-SUFFIX,juicyads.com,extended-matching
 #DOMAIN-SUFFIX,wixstatic.com
-DOMAIN-SUFFIX,thumb.fvs.io
-DOMAIN-SUFFIX,itnuzleafan.com
-DOMAIN-SUFFIX,oawhaursaith.com
-DOMAIN-SUFFIX,unreshiramor.com
-DOMAIN-SUFFIX,regulationprivilegescan.top
-DOMAIN-SUFFIX,in-page-push.com
-DOMAIN-SUFFIX,farmcrapsubsist.com
+DOMAIN-SUFFIX,thumb.fvs.io,extended-matching
+DOMAIN-SUFFIX,itnuzleafan.com,extended-matching
+DOMAIN-SUFFIX,oawhaursaith.com,extended-matching
+DOMAIN-SUFFIX,unreshiramor.com,extended-matching
+DOMAIN-SUFFIX,regulationprivilegescan.top,extended-matching
+DOMAIN-SUFFIX,in-page-push.com,extended-matching
+DOMAIN-SUFFIX,farmcrapsubsist.com,extended-matching
 
 ##### avgle.me  
-DOMAIN-SUFFIX,jads.co
-DOMAIN-SUFFIX,adxadserv.com
-DOMAIN-SUFFIX,moatads.com
-DOMAIN-SUFFIX,juicyads.in
-DOMAIN-SUFFIX,dtscout.com
+DOMAIN-SUFFIX,jads.co,extended-matching
+DOMAIN-SUFFIX,adxadserv.com,extended-matching
+DOMAIN-SUFFIX,moatads.com,extended-matching
+DOMAIN-SUFFIX,juicyads.in,extended-matching
+DOMAIN-SUFFIX,dtscout.com,extended-matching
 
 ##### dilili.tv  
-DOMAIN-SUFFIX,51.la
-DOMAIN-SUFFIX,51daeka.com
+DOMAIN-SUFFIX,51.la,extended-matching
+DOMAIN-SUFFIX,51daeka.com,extended-matching
 
 ##### www.cocomanhua.com  
-DOMAIN-SUFFIX,exdynsrv.com
+DOMAIN-SUFFIX,exdynsrv.com,extended-matching
 #DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,d227cncaprzd7y.cloudfront.net
-DOMAIN-SUFFIX,d10lumateci472.cloudfront.net
+DOMAIN-SUFFIX,d227cncaprzd7y.cloudfront.net,extended-matching
+DOMAIN-SUFFIX,d10lumateci472.cloudfront.net,extended-matching
 
 ##### m.yhdm.io  
-DOMAIN-SUFFIX,dvzk66.cn
-DOMAIN-SUFFIX,pu0glv.cn
+DOMAIN-SUFFIX,dvzk66.cn,extended-matching
+DOMAIN-SUFFIX,pu0glv.cn,extended-matching
 
 ##### www.porntrex.com/  
 #DOMAIN-SUFFIX,ads.bullionyield.com
@@ -176,50 +176,50 @@ DOMAIN-KEYWORD,juruigj
 #DOMAIN-KEYWORD,mmiyue
 
 ##### pornhub.com  
-DOMAIN-SUFFIX,etahub.com
-DOMAIN-SUFFIX,evtubescms.phncdn.com
+DOMAIN-SUFFIX,etahub.com,extended-matching
+DOMAIN-SUFFIX,evtubescms.phncdn.com,extended-matching
 
 ##### www.hptoon.com  
-DOMAIN-SUFFIX,22c.in
-DOMAIN-SUFFIX,imgxxx.shunxincar.cn
+DOMAIN-SUFFIX,22c.in,extended-matching
+DOMAIN-SUFFIX,imgxxx.shunxincar.cn,extended-matching
 #DOMAIN-SUFFIX,cc58.oss-cn-beijing.aliyuncs.com
 #DOMAIN-SUFFIX,oss-accelerate.aliyuncs.com
-DOMAIN-SUFFIX,kk.braincf.com
-DOMAIN-SUFFIX,run.haireig.com
-DOMAIN-SUFFIX,d.zxptw.cn
-DOMAIN-SUFFIX,new.xiongzhangad.com
-DOMAIN-SUFFIX,js.users.51.la
-DOMAIN-SUFFIX,maxwellsery.com
-DOMAIN-SUFFIX,annabelleabe.com
+DOMAIN-SUFFIX,kk.braincf.com,extended-matching
+DOMAIN-SUFFIX,run.haireig.com,extended-matching
+DOMAIN-SUFFIX,d.zxptw.cn,extended-matching
+DOMAIN-SUFFIX,new.xiongzhangad.com,extended-matching
+DOMAIN-SUFFIX,js.users.51.la,extended-matching
+DOMAIN-SUFFIX,maxwellsery.com,extended-matching
+DOMAIN-SUFFIX,annabelleabe.com,extended-matching
 
 ##### https://91mjw.com/  
-DOMAIN-SUFFIX,jidukeji.com
-DOMAIN-SUFFIX,atmib.com
-DOMAIN-SUFFIX,bjzysd.net
-DOMAIN-SUFFIX,iycwl.com
-DOMAIN-SUFFIX,haoyundm.com
-DOMAIN-SUFFIX,qqq123987.site
-DOMAIN-SUFFIX,qweewq2021.online
-DOMAIN-SUFFIX,qqq123987.site
-DOMAIN-SUFFIX,jianxinshanghai.com
-DOMAIN-SUFFIX,js.51toubu.com
-DOMAIN-SUFFIX,img.hylmxing.com
-DOMAIN-SUFFIX,777.000123456789.space
-DOMAIN-SUFFIX,bhichong.com
-DOMAIN-SUFFIX,tskdfjksldk.sdhsgcj.com
-DOMAIN-SUFFIX,haoyuntj.com
+DOMAIN-SUFFIX,jidukeji.com,extended-matching
+DOMAIN-SUFFIX,atmib.com,extended-matching
+DOMAIN-SUFFIX,bjzysd.net,extended-matching
+DOMAIN-SUFFIX,iycwl.com,extended-matching
+DOMAIN-SUFFIX,haoyundm.com,extended-matching
+DOMAIN-SUFFIX,qqq123987.site,extended-matching
+DOMAIN-SUFFIX,qweewq2021.online,extended-matching
+DOMAIN-SUFFIX,qqq123987.site,extended-matching
+DOMAIN-SUFFIX,jianxinshanghai.com,extended-matching
+DOMAIN-SUFFIX,js.51toubu.com,extended-matching
+DOMAIN-SUFFIX,img.hylmxing.com,extended-matching
+DOMAIN-SUFFIX,777.000123456789.space,extended-matching
+DOMAIN-SUFFIX,bhichong.com,extended-matching
+DOMAIN-SUFFIX,tskdfjksldk.sdhsgcj.com,extended-matching
+DOMAIN-SUFFIX,haoyuntj.com,extended-matching
 
 ##### https://m.biquge.com.cn/  
-DOMAIN-SUFFIX,bizhixiang.cn
-DOMAIN-SUFFIX,jspassport.ssl.qhimg.com
+DOMAIN-SUFFIX,bizhixiang.cn,extended-matching
+DOMAIN-SUFFIX,jspassport.ssl.qhimg.com,extended-matching
 
 ##### https://gimy.tv/ 剧迷tv  
-DOMAIN-SUFFIX,ads.superad.cc
+DOMAIN-SUFFIX,ads.superad.cc,extended-matching
 
 ##### https://hpjav.tv/ JAVFAN #NSFW  
-DOMAIN-SUFFIX,wpncdn.com
-DOMAIN-SUFFIX,exosrv.com
-DOMAIN-SUFFIX,jads.co
+DOMAIN-SUFFIX,wpncdn.com,extended-matching
+DOMAIN-SUFFIX,exosrv.com,extended-matching
+DOMAIN-SUFFIX,jads.co,extended-matching
 DOMAIN-KEYWORD,toateeli
 DOMAIN-KEYWORD,greenplasticdua
 DOMAIN-KEYWORD,bongacash
@@ -229,12 +229,12 @@ DOMAIN-KEYWORD,jads
 DOMAIN-KEYWORD,trwl1
 #DOMAIN-KEYWORD,vidoza
 DOMAIN-KEYWORD,o333o
-DOMAIN-SUFFIX,ad.pornimg.xyz
+DOMAIN-SUFFIX,ad.pornimg.xyz,extended-matching
 
 ##### https://javgg.net/  
-DOMAIN-SUFFIX,x2sfa.javgg.eu
-DOMAIN-SUFFIX,xd3r.javgg.eu
-DOMAIN-SUFFIX,p242.plainwrk.name
+DOMAIN-SUFFIX,x2sfa.javgg.eu,extended-matching
+DOMAIN-SUFFIX,xd3r.javgg.eu,extended-matching
+DOMAIN-SUFFIX,p242.plainwrk.name,extended-matching
 
 ##### https://www5.javmost.com/  
 DOMAIN-KEYWORD,histats
@@ -245,20 +245,20 @@ DOMAIN-KEYWORD,pagespeed-mod
 DOMAIN-KEYWORD,in-page-push
 
 ##### https://hanime1.me/
-DOMAIN-SUFFIX,impactserving.com
-DOMAIN-SUFFIX,addthis.com
-DOMAIN-SUFFIX,magsrv.com
-DOMAIN-SUFFIX,creative.kbnmnl.com
+DOMAIN-SUFFIX,impactserving.com,extended-matching
+DOMAIN-SUFFIX,addthis.com,extended-matching
+DOMAIN-SUFFIX,magsrv.com,extended-matching
+DOMAIN-SUFFIX,creative.kbnmnl.com,extended-matching
 
 ##### https://supjav.com/
-DOMAIN-SUFFIX,adxadserv.com
-DOMAIN-SUFFIX,xlivrdr.com
-DOMAIN-SUFFIX,fanza.cc
+DOMAIN-SUFFIX,adxadserv.com,extended-matching
+DOMAIN-SUFFIX,xlivrdr.com,extended-matching
+DOMAIN-SUFFIX,fanza.cc,extended-matching
 
 #### disqus  
-DOMAIN-SUFFIX,referrer.disqus.com
-DOMAIN-SUFFIX,links.services.disqus.com
-DOMAIN-SUFFIX,disqusads.com
+DOMAIN-SUFFIX,referrer.disqus.com,extended-matching
+DOMAIN-SUFFIX,links.services.disqus.com,extended-matching
+DOMAIN-SUFFIX,disqusads.com,extended-matching
 DOMAIN,glitter.services.disqus.com,extended-matching
 DOMAIN,juggler.services.disqus.com,extended-matching
 DOMAIN,tempest.services.disqus.com,extended-matching
@@ -268,39 +268,39 @@ DOMAIN,ns4.viglink.com,extended-matching
 DOMAIN,ns2.viglink.com,extended-matching
 DOMAIN,ns3.viglink.com,extended-matching
 DOMAIN,apicdn.viglink.com,extended-matching
-DOMAIN-SUFFIX,cdn.viglink.com
+DOMAIN-SUFFIX,cdn.viglink.com,extended-matching
 
 #### www.tz659.com  
 DOMAIN,nggfe.fdgem.com,extended-matching
 DOMAIN,rthmnj.xyz,extended-matching
-DOMAIN-SUFFIX,jknmthwd.xyz
+DOMAIN-SUFFIX,jknmthwd.xyz,extended-matching
 DOMAIN,koprtgh.omhoa.com,extended-matching
 DOMAIN,hbftgh.ibjkqnhjwd.xyz,extended-matching
 DOMAIN,kmopoer.jkbuymjhp.xyz,extended-matching
 DOMAIN,kmef.ikjwmfeds.xyz,extended-matching
 DOMAIN,hnrtg.iujkegbpo.xyz,extended-matching
-DOMAIN-SUFFIX,tcc.qscvli.com
+DOMAIN-SUFFIX,tcc.qscvli.com,extended-matching
 DOMAIN,fg.knlk2md.cn,extended-matching
 DOMAIN,tg.gtlpaj.com,extended-matching
-DOMAIN-SUFFIX,gtlpaj.com
-DOMAIN-SUFFIX,knlk2md.cn
-DOMAIN-SUFFIX,7tad.cn
+DOMAIN-SUFFIX,gtlpaj.com,extended-matching
+DOMAIN-SUFFIX,knlk2md.cn,extended-matching
+DOMAIN-SUFFIX,7tad.cn,extended-matching
 DOMAIN,tc.vpubmi.com,extended-matching
-DOMAIN-SUFFIX,qoiw1xw.cn
-DOMAIN-SUFFIX,purpleads.io
+DOMAIN-SUFFIX,qoiw1xw.cn,extended-matching
+DOMAIN-SUFFIX,purpleads.io,extended-matching
 
 #### cn1.91short.com
-DOMAIN-SUFFIX,ioacfu.com
+DOMAIN-SUFFIX,ioacfu.com,extended-matching
 
 #### 91porn.com
 #### DOMAIN-SUFFIX,killcovid2021.com
 
 #### xiaobaotv.net
-DOMAIN-SUFFIX,exemptambientcream.com
-DOMAIN-SUFFIX,catdomepimyth.com
+DOMAIN-SUFFIX,exemptambientcream.com,extended-matching
+DOMAIN-SUFFIX,catdomepimyth.com,extended-matching
 
 #### javday.tv
-DOMAIN-SUFFIX,farwine.com
+DOMAIN-SUFFIX,farwine.com,extended-matching
 
 #### Guard Advertising.list 神机规则
 ## 参阅 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
@@ -318,14 +318,14 @@ DOMAIN,r.51wnl-cq.com,extended-matching
 
 # (A)
 # > Apple
-DOMAIN-SUFFIX,iadsdk.apple.com
-DOMAIN-SUFFIX,ads.internal.unity3d.com
-DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
-DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,iadsdk.apple.com,extended-matching
+DOMAIN-SUFFIX,ads.internal.unity3d.com,extended-matching
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,extended-matching
+DOMAIN-SUFFIX,unityads.unity3d.com,extended-matching
 # --- (Alibaba) ---
 DOMAIN,tunion-api.m.taobao.com,extended-matching
 # > YOUKU
-DOMAIN-SUFFIX,atm.youku.com
+DOMAIN-SUFFIX,atm.youku.com,extended-matching
 DOMAIN,ad.mobile.youku.com,extended-matching
 DOMAIN,adx.op.cp18.ott.cibntv.net,extended-matching
 DOMAIN,iyes.youku.com,extended-matching
@@ -346,9 +346,9 @@ DOMAIN,adm3.autoimg.cn,extended-matching
 
 # (B)
 # --- (Baidu) ---
-DOMAIN-SUFFIX,duapps.com
-DOMAIN-SUFFIX,cpro.baidu.com
-DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,duapps.com,extended-matching
+DOMAIN-SUFFIX,cpro.baidu.com,extended-matching
+DOMAIN-SUFFIX,pos.baidu.com,extended-matching
 DOMAIN,afd.baidu.com,extended-matching
 DOMAIN,als.baidu.com,extended-matching
 DOMAIN,duclick.baidu.com,extended-matching
@@ -365,8 +365,8 @@ DOMAIN,t7z.cupid.ptqy.gitv.tv,extended-matching
 ## IP-CIDR,124.192.153.42/32,no-resolve
 # ------
 # > ByteDance
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,extended-matching
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,extended-matching
 DOMAIN,ad.toutiao.com,extended-matching
 DOMAIN,dsp.toutiao.com,extended-matching
 DOMAIN,pangolin.snssdk.com,extended-matching
@@ -377,15 +377,15 @@ DOMAIN,advertise.baicizhan.org,extended-matching
 DOMAIN,adx.yiche.com,extended-matching
 DOMAIN,log.ycapp.yiche.com,extended-matching
 # > Braze
-DOMAIN-SUFFIX,iad.appboy.com
-DOMAIN-SUFFIX,iad-03.appboy.com
-DOMAIN-SUFFIX,iad-01.braze.com
-DOMAIN-SUFFIX,iad-02.braze.com
-DOMAIN-SUFFIX,iad-03.braze.com
-DOMAIN-SUFFIX,iad-04.braze.com
-DOMAIN-SUFFIX,iad-05.braze.com
-DOMAIN-SUFFIX,iad-06.braze.com
-DOMAIN-SUFFIX,iad-08.braze.com
+DOMAIN-SUFFIX,iad.appboy.com,extended-matching
+DOMAIN-SUFFIX,iad-03.appboy.com,extended-matching
+DOMAIN-SUFFIX,iad-01.braze.com,extended-matching
+DOMAIN-SUFFIX,iad-02.braze.com,extended-matching
+DOMAIN-SUFFIX,iad-03.braze.com,extended-matching
+DOMAIN-SUFFIX,iad-04.braze.com,extended-matching
+DOMAIN-SUFFIX,iad-05.braze.com,extended-matching
+DOMAIN-SUFFIX,iad-06.braze.com,extended-matching
+DOMAIN-SUFFIX,iad-08.braze.com,extended-matching
 
 # (C)
 # > CCTVVideo
@@ -414,19 +414,19 @@ DOMAIN,exp.360in.com,extended-matching
 
 # (G)
 # > Google
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleadsserving.cn
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,doubleclick.net,extended-matching
+DOMAIN-SUFFIX,googleadservices.com,extended-matching
+DOMAIN-SUFFIX,googleadsserving.cn,extended-matching
+DOMAIN-SUFFIX,googlesyndication.com,extended-matching
+DOMAIN-SUFFIX,googletagservices.com,extended-matching
 DOMAIN,ads.youtube.com,extended-matching
 
 # (H)
 # > HunanTV
-DOMAIN-SUFFIX,da.mgtv.com
-DOMAIN-SUFFIX,da.hunantv.com
-DOMAIN-SUFFIX,log.hunantv.com
-DOMAIN-SUFFIX,v2.hunantv.com
+DOMAIN-SUFFIX,da.mgtv.com,extended-matching
+DOMAIN-SUFFIX,da.hunantv.com,extended-matching
+DOMAIN-SUFFIX,log.hunantv.com,extended-matching
+DOMAIN-SUFFIX,v2.hunantv.com,extended-matching
 # > Hupu
 DOMAIN,adx.hupu.com,extended-matching
 DOMAIN,adx-api.hupu.com,extended-matching
@@ -457,12 +457,12 @@ DOMAIN,mobad.ijinshan.com,extended-matching
 DOMAIN,ups.ksmobile.net,extended-matching
 DOMAIN,ws.ksmobile.net,extended-matching
 # > Kuaishou
-DOMAIN-SUFFIX,e.kuaishou.com
+DOMAIN-SUFFIX,e.kuaishou.com,extended-matching
 DOMAIN,js-ad.a.yximgs.com,extended-matching
 
 # (L)
 # > Le
-DOMAIN-SUFFIX,webp2p.letv.com
+DOMAIN-SUFFIX,webp2p.letv.com,extended-matching
 DOMAIN,ark.letv.com,extended-matching
 DOMAIN,emma-414870e223.huodonghezi.com,extended-matching
 DOMAIN,g3.letv.com,extended-matching
@@ -474,11 +474,11 @@ DOMAIN,c1wx.lianwangtech.com,extended-matching
 
 # (M)
 # > Microsoft
-DOMAIN-SUFFIX,ads.msn.com
-DOMAIN-SUFFIX,ads1.msn.com
-DOMAIN-SUFFIX,ads2.msn.com
-DOMAIN-SUFFIX,bingads.microsoft.com
-DOMAIN-SUFFIX,rads.msn.com
+DOMAIN-SUFFIX,ads.msn.com,extended-matching
+DOMAIN-SUFFIX,ads1.msn.com,extended-matching
+DOMAIN-SUFFIX,ads2.msn.com,extended-matching
+DOMAIN-SUFFIX,bingads.microsoft.com,extended-matching
+DOMAIN-SUFFIX,rads.msn.com,extended-matching
 DOMAIN,mobileads.msn.com,extended-matching
 # > MojiWeather
 DOMAIN,ad.api.moji.com,extended-matching
@@ -486,7 +486,7 @@ DOMAIN,adlaunch.moji.com,extended-matching
 DOMAIN,ads.mojicdn.com,extended-matching
 DOMAIN,v1.log.moji.com,extended-matching
 # > MiguVideo
-DOMAIN-SUFFIX,ad.cmvideo.cn
+DOMAIN-SUFFIX,ad.cmvideo.cn,extended-matching
 DOMAIN,ggc.cmvideo.cn,extended-matching
 DOMAIN,ggic03.miguvideo.com,extended-matching
 DOMAIN,ggmk.miguvideo.com,extended-matching
@@ -496,8 +496,8 @@ DOMAIN,ggx03.miguvideo.com,extended-matching
 
 # (N)
 # > NetEase
-DOMAIN-SUFFIX,dsp.youdao.com
-DOMAIN-SUFFIX,union.youdao.com
+DOMAIN-SUFFIX,dsp.youdao.com,extended-matching
+DOMAIN-SUFFIX,union.youdao.com,extended-matching
 DOMAIN,ad.bn.netease.com,extended-matching
 DOMAIN,ad.yixin.im,extended-matching
 DOMAIN,admusicpic.music.126.net,extended-matching
@@ -534,7 +534,7 @@ DOMAIN,imgad0.pcauto.com.cn,extended-matching
 DOMAIN,imgad0.pconline.com.cn,extended-matching
 DOMAIN,ivy.pchouse.com.cn,extended-matching
 # > Phoenix New Media
-DOMAIN-SUFFIX,deliver.ifeng.com
+DOMAIN-SUFFIX,deliver.ifeng.com,extended-matching
 DOMAIN,api.newad.ifeng.com,extended-matching
 DOMAIN,ifengad.3g.ifeng.com,extended-matching
 
@@ -544,13 +544,13 @@ DOMAIN,ad.qingting.fm,extended-matching
 DOMAIN,adlaunch.qingting.fm,extended-matching
 DOMAIN,ad-cdn.qingting.fm,extended-matching
 # > OPPO
-DOMAIN-SUFFIX,ads.oppomobile.com
+DOMAIN-SUFFIX,ads.oppomobile.com,extended-matching
 DOMAIN,adsfs.oppomobile.com,extended-matching
 
 # (S)
 # > Sina
-DOMAIN-SUFFIX,alitui.weibo.com
-DOMAIN-SUFFIX,beacon.sina.com.cn
+DOMAIN-SUFFIX,alitui.weibo.com,extended-matching
+DOMAIN-SUFFIX,beacon.sina.com.cn,extended-matching
 DOMAIN,adimg.uve.weibo.com,extended-matching
 DOMAIN,adimg.vue.weibo.com,extended-matching
 DOMAIN,u1.img.mobile.sina.cn,extended-matching
@@ -558,24 +558,24 @@ DOMAIN,sax.sina.com.cn,extended-matching
 DOMAIN,saxs.sina.com.cn,extended-matching
 DOMAIN,saxn.sina.com.cn,extended-matching
 # > SOHU
-DOMAIN-SUFFIX,ad.sohu.com
-DOMAIN-SUFFIX,ads.sohu.com
-DOMAIN-SUFFIX,aty.sohu.com
+DOMAIN-SUFFIX,ad.sohu.com,extended-matching
+DOMAIN-SUFFIX,ads.sohu.com,extended-matching
+DOMAIN-SUFFIX,aty.sohu.com,extended-matching
 DOMAIN,hui.sohu.com,extended-matching
-DOMAIN-SUFFIX,pv.sohu.com
+DOMAIN-SUFFIX,pv.sohu.com,extended-matching
 # > Snapchat
 DOMAIN,ads.snapchat.com,extended-matching
 DOMAIN,adsapi.snapchat.com,extended-matching
 # > Skyworth
-DOMAIN-SUFFIX,hoisin.coocaa.com
-DOMAIN-SUFFIX,hoisin.coocaatv.com
+DOMAIN-SUFFIX,hoisin.coocaa.com,extended-matching
+DOMAIN-SUFFIX,hoisin.coocaatv.com,extended-matching
 DOMAIN,data-hoisin.coocaa.com,extended-matching
 
 # (T)
 # --- (Tencent) ---
-DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,e.qq.com,extended-matching
+DOMAIN-SUFFIX,gdt.qq.com,extended-matching
+DOMAIN-SUFFIX,l.qq.com,extended-matching
 DOMAIN,adsmind.apdcdn.tc.qq.com,extended-matching
 DOMAIN,adsmind.gdtimg.com,extended-matching
 DOMAIN,adsmind.tc.qq.com,extended-matching
@@ -653,10 +653,10 @@ DOMAIN,t-ads.xiaohongshu.com,extended-matching
 
 # (Y)
 # > Yahoo
-DOMAIN-SUFFIX,adserver.yahoo.com
-DOMAIN-SUFFIX,adspecs.yahoo.com
-DOMAIN-SUFFIX,advertising.yahoo.com
-DOMAIN-SUFFIX,gemini.yahoo.com
+DOMAIN-SUFFIX,adserver.yahoo.com,extended-matching
+DOMAIN-SUFFIX,adspecs.yahoo.com,extended-matching
+DOMAIN-SUFFIX,advertising.yahoo.com,extended-matching
+DOMAIN-SUFFIX,gemini.yahoo.com,extended-matching
 DOMAIN,admarketing.yahoo.net,extended-matching
 DOMAIN,ads.auctions.yahoo.com,extended-matching
 DOMAIN,ads.finance.yahoo.com,extended-matching
