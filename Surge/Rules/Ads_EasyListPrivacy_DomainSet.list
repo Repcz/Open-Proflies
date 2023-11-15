@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202311141453
+## ! Version: 202311151519
 ## ! Title: EasyPrivacy
-## ! Last modified: 14 Nov 2023 14:53 UTC
+## ! Last modified: 15 Nov 2023 15:19 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -360,6 +360,7 @@
 .ustat.info,extended-matching
 .venture-365-inspired.com,extended-matching
 .venusrevival.com,extended-matching
+.vfghe.com,extended-matching
 .vfgte.com,extended-matching
 .videoplayerhub.com,extended-matching
 .vkanalytics.net,extended-matching
@@ -2435,6 +2436,7 @@ DOMAIN-SUFFIXfairies.com
 .events.ubembed.com,extended-matching
 .events.whisk.com,extended-matching
 .events.yourcx.io,extended-matching
+.eventsproxy.gargantuan.futureplc.com,extended-matching
 .evt.houzz.com,extended-matching
 .experience.contextly.com,extended-matching
 .f-log-at.grammarly.io,extended-matching
@@ -2853,6 +2855,7 @@ DOMAIN-SUFFIXfairies.com
 .t.channeladvisor.com,extended-matching
 .t.clic2buy.com,extended-matching
 .t.enuygun.com,extended-matching
+.t.gHOSTboard.io,extended-matching
 .t.irtyc.com,extended-matching
 .t.jobsyn.org,extended-matching
 .t.menepe.com,extended-matching
@@ -20206,7 +20209,6 @@ DOMAIN-SUFFIXfairies.com
 .link.marketing.churchomeglobal.org,extended-matching
 .link.mbtihell.com,extended-matching
 .link.medibuddy.app,extended-matching
-.link.medium.com,extended-matching
 .link.metronaut.app,extended-matching
 .link.meumulti.com.br,extended-matching
 .link.mindsetapp.com,extended-matching

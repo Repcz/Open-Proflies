@@ -1,0 +1,25 @@
+# NAME: AppleProxy
+# AUTHOR: blackmatrix7
+# REPO: https:
+# UPDATED: 2023-10-07 14:20:19
+# DOMAIN: 9
+# HOST-SUFFIX: 5
+# 
+# USER-AGENT: 1
+# TOTAL: 16
+HOST,api-glb-sea.smoot.apple.com,DIRECT
+HOST,books.itunes.apple.com,DIRECT
+HOST,cvws.icloud-content.com,DIRECT
+HOST,developer.apple.com,DIRECT
+HOST,hls.itunes.apple.com,DIRECT
+HOST,itunes.apple.com,DIRECT
+HOST,lookup-api.apple.com,DIRECT
+HOST,sandbox.itunes.apple.com,DIRECT
+HOST,testflight.apple.com,DIRECT
+HOST-SUFFIX,apple-dns.net,DIRECT
+HOST-SUFFIX,apps.apple.com,DIRECT
+HOST-SUFFIX,appsto.re,DIRECT
+HOST-SUFFIX,blobstore.apple.com,DIRECT
+HOST-SUFFIX,digicert.com,DIRECT
+USER-AGENT,com.apple.trustd*,DIRECT
+

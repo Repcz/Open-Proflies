@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202311141453
+## ! Version: 202311151519
 ## ! Title: EasyPrivacy
-## ! Last modified: 14 Nov 2023 14:53 UTC
+## ! Last modified: 15 Nov 2023 15:19 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -362,6 +362,7 @@ DOMAIN-SUFFIX,uqd.io,extended-matching
 DOMAIN-SUFFIX,ustat.info,extended-matching
 DOMAIN-SUFFIX,venture-365-inspired.com,extended-matching
 DOMAIN-SUFFIX,venusrevival.com,extended-matching
+DOMAIN-SUFFIX,vfghe.com,extended-matching
 DOMAIN-SUFFIX,vfgte.com,extended-matching
 DOMAIN-SUFFIX,videoplayerhub.com,extended-matching
 DOMAIN-SUFFIX,vkanalytics.net,extended-matching
@@ -2437,6 +2438,7 @@ DOMAIN-SUFFIX,events.tubecup.org,extended-matching
 DOMAIN-SUFFIX,events.ubembed.com,extended-matching
 DOMAIN-SUFFIX,events.whisk.com,extended-matching
 DOMAIN-SUFFIX,events.yourcx.io,extended-matching
+DOMAIN-SUFFIX,eventsproxy.gargantuan.futureplc.com,extended-matching
 DOMAIN-SUFFIX,evt.houzz.com,extended-matching
 DOMAIN-SUFFIX,experience.contextly.com,extended-matching
 DOMAIN-SUFFIX,f-log-at.grammarly.io,extended-matching
@@ -2855,6 +2857,7 @@ DOMAIN-SUFFIX,t.cfjump.com,extended-matching
 DOMAIN-SUFFIX,t.channeladvisor.com,extended-matching
 DOMAIN-SUFFIX,t.clic2buy.com,extended-matching
 DOMAIN-SUFFIX,t.enuygun.com,extended-matching
+DOMAIN-SUFFIX,t.gHOSTboard.io,extended-matching
 DOMAIN-SUFFIX,t.irtyc.com,extended-matching
 DOMAIN-SUFFIX,t.jobsyn.org,extended-matching
 DOMAIN-SUFFIX,t.menepe.com,extended-matching
@@ -20208,7 +20211,6 @@ DOMAIN-SUFFIX,link.marketing.bleacherreport.com,extended-matching
 DOMAIN-SUFFIX,link.marketing.churchomeglobal.org,extended-matching
 DOMAIN-SUFFIX,link.mbtihell.com,extended-matching
 DOMAIN-SUFFIX,link.medibuddy.app,extended-matching
-DOMAIN-SUFFIX,link.medium.com,extended-matching
 DOMAIN-SUFFIX,link.metronaut.app,extended-matching
 DOMAIN-SUFFIX,link.meumulti.com.br,extended-matching
 DOMAIN-SUFFIX,link.mindsetapp.com,extended-matching

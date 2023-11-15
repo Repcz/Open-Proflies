@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202311141453
+## ! Version: 202311151519
 ## ! Title: EasyPrivacy
-## ! Last modified: 14 Nov 2023 14:53 UTC
+## ! Last modified: 15 Nov 2023 15:19 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -362,6 +362,7 @@ HOST-SUFFIX,uqd.io,reject,DIRECT
 HOST-SUFFIX,ustat.info,reject,DIRECT
 HOST-SUFFIX,venture-365-inspired.com,reject,DIRECT
 HOST-SUFFIX,venusrevival.com,reject,DIRECT
+HOST-SUFFIX,vfghe.com,reject,DIRECT
 HOST-SUFFIX,vfgte.com,reject,DIRECT
 HOST-SUFFIX,videoplayerhub.com,reject,DIRECT
 HOST-SUFFIX,vkanalytics.net,reject,DIRECT
@@ -2437,6 +2438,7 @@ HOST-SUFFIX,events.tubecup.org,reject,DIRECT
 HOST-SUFFIX,events.ubembed.com,reject,DIRECT
 HOST-SUFFIX,events.whisk.com,reject,DIRECT
 HOST-SUFFIX,events.yourcx.io,reject,DIRECT
+HOST-SUFFIX,eventsproxy.gargantuan.futureplc.com,reject,DIRECT
 HOST-SUFFIX,evt.houzz.com,reject,DIRECT
 HOST-SUFFIX,experience.contextly.com,reject,DIRECT
 HOST-SUFFIX,f-log-at.grammarly.io,reject,DIRECT
@@ -2855,6 +2857,7 @@ HOST-SUFFIX,t.cfjump.com,reject,DIRECT
 HOST-SUFFIX,t.channeladvisor.com,reject,DIRECT
 HOST-SUFFIX,t.clic2buy.com,reject,DIRECT
 HOST-SUFFIX,t.enuygun.com,reject,DIRECT
+HOST-SUFFIX,t.ghostboard.io,reject,DIRECT
 HOST-SUFFIX,t.irtyc.com,reject,DIRECT
 HOST-SUFFIX,t.jobsyn.org,reject,DIRECT
 HOST-SUFFIX,t.menepe.com,reject,DIRECT
@@ -20208,7 +20211,6 @@ HOST-SUFFIX,link.marketing.bleacherreport.com,reject,DIRECT
 HOST-SUFFIX,link.marketing.churchomeglobal.org,reject,DIRECT
 HOST-SUFFIX,link.mbtihell.com,reject,DIRECT
 HOST-SUFFIX,link.medibuddy.app,reject,DIRECT
-HOST-SUFFIX,link.medium.com,reject,DIRECT
 HOST-SUFFIX,link.metronaut.app,reject,DIRECT
 HOST-SUFFIX,link.meumulti.com.br,reject,DIRECT
 HOST-SUFFIX,link.mindsetapp.com,reject,DIRECT
