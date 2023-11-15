@@ -8191,24 +8191,24 @@ DOMAIN-SUFFIX,ea778a21c7.com
 
 # > Baidu
 DOMAIN-SUFFIX,baidustatic.com
-DOMAIN,duclick.baidu.com
-DOMAIN,hm.baidu.com
-DOMAIN,hmma.baidu.com
-DOMAIN,mobads.baidu.com
-DOMAIN,mobads-logs.baidu.com
-DOMAIN,nsclick.baidu.com
-DOMAIN,wn.pos.baidu.com
-DOMAIN,ps.map.baidu.com
-DOMAIN,offnavi.map.baidu.com
-DOMAIN,newvector.map.baidu.com
-DOMAIN,ulog.imap.baidu.com
-DOMAIN,newloc.map.n.shifen.com
+DOMAIN,duclick.baidu.com,extended-matching
+DOMAIN,hm.baidu.com,extended-matching
+DOMAIN,hmma.baidu.com,extended-matching
+DOMAIN,mobads.baidu.com,extended-matching
+DOMAIN,mobads-logs.baidu.com,extended-matching
+DOMAIN,nsclick.baidu.com,extended-matching
+DOMAIN,wn.pos.baidu.com,extended-matching
+DOMAIN,ps.map.baidu.com,extended-matching
+DOMAIN,offnavi.map.baidu.com,extended-matching
+DOMAIN,newvector.map.baidu.com,extended-matching
+DOMAIN,ulog.imap.baidu.com,extended-matching
+DOMAIN,newloc.map.n.shifen.com,extended-matching
 URL-REGEX,http:\/\/[\s\S]*baidu\.com\/\.*ad[xs]\.php
 URL-REGEX,http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
 
 # > Bilibili
-DOMAIN,miniapp.bilibili.com
-DOMAIN,thirdparty.biliapi.com
+DOMAIN,miniapp.bilibili.com,extended-matching
+DOMAIN,thirdparty.biliapi.com,extended-matching
 URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/param
 URL-REGEX,https:\/\/app\.bilibili\.com\/x\/resource\/abtest
 URL-REGEX,http:\/\/app\.bilibili\.com\/x\/v2\/dataflow\/report-TINYGIF
@@ -8217,42 +8217,42 @@ URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/rank\.*rid=(168|5)
 URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
 
 # > OpenAI
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaicom.imgix.net
+DOMAIN,o33249.ingest.sentry.io,extended-matching
+DOMAIN,openaicom.imgix.net,extended-matching
 
 # > Didi
 URL-REGEX,https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
 
 # > ele
-DOMAIN,log.star.ele.me
+DOMAIN,log.star.ele.me,extended-matching
 
 # > Netease
-DOMAIN,ad.bn.netease.com
-DOMAIN,ad.yixin.im
-DOMAIN,iadmat.nosdn.127.net
-DOMAIN,iadmusicmat.music.126.net
-DOMAIN,iadmusicmatvideo.music.126.net
-DOMAIN,impservice.dictapp.youdao.com
-DOMAIN,impservice.youdao.com
-DOMAIN,log.yex.youdao.com
-DOMAIN,log-yex.youdao.com
-DOMAIN,mr.da.netease.com
-DOMAIN,n.3g.163.com
-DOMAIN,nex.163.com
-DOMAIN,pr.da.netease.com
-DOMAIN,rd.da.netease.com
-DOMAIN,wr.da.netease.com
-DOMAIN,yt-adp.nosdn.127.net
+DOMAIN,ad.bn.netease.com,extended-matching
+DOMAIN,ad.yixin.im,extended-matching
+DOMAIN,iadmat.nosdn.127.net,extended-matching
+DOMAIN,iadmusicmat.music.126.net,extended-matching
+DOMAIN,iadmusicmatvideo.music.126.net,extended-matching
+DOMAIN,impservice.dictapp.youdao.com,extended-matching
+DOMAIN,impservice.youdao.com,extended-matching
+DOMAIN,log.yex.youdao.com,extended-matching
+DOMAIN,log-yex.youdao.com,extended-matching
+DOMAIN,mr.da.netease.com,extended-matching
+DOMAIN,n.3g.163.com,extended-matching
+DOMAIN,nex.163.com,extended-matching
+DOMAIN,pr.da.netease.com,extended-matching
+DOMAIN,rd.da.netease.com,extended-matching
+DOMAIN,wr.da.netease.com,extended-matching
+DOMAIN,yt-adp.nosdn.127.net,extended-matching
 URL-REGEX,http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg
 URL-REGEX,http:\/\/iad\.*mat\.[a-z]*\.12[67]\.net\/\w+\.(jpg|mp4)
 
 # > Zhihu
-DOMAIN,appcloud2.in.zhihu.com
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-DOMAIN,zhihu-analytics.zhihu.com
-DOMAIN,zhihu-web-analytics.zhihu.com
-DOMAIN,118.89.204.198
+DOMAIN,appcloud2.in.zhihu.com,extended-matching
+DOMAIN,mqtt.zhihu.com,extended-matching
+DOMAIN,sugar.zhihu.com,extended-matching
+DOMAIN,zhihu-analytics.zhihu.com,extended-matching
+DOMAIN,zhihu-web-analytics.zhihu.com,extended-matching
+DOMAIN,118.89.204.198,extended-matching
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,zhihu.xmcimg.com
 URL-REGEX,https:\/\/api\.zhihu\.com\/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
