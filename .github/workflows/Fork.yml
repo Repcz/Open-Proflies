@@ -28,6 +28,7 @@ jobs:
         curl -L -o Open-Proflies-repo/Surge/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
         # 代理规则
         curl -L -o Open-Proflies-repo/Surge/Rules/OpenAI.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
@@ -251,6 +252,7 @@ jobs:
         curl -L -o Open-Proflies-repo/QuantumultX/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
         curl -L -o Open-Proflies-repo/QuantumultX/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
         curl -L -o Open-Proflies-repo/QuantumultX/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Open-Proflies-repo/QuantumultX/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
         # 代理规则
         curl -L -o Open-Proflies-repo/QuantumultX/Rules/OpenAI.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
         curl -L -o Open-Proflies-repo/QuantumultX/Rules/Telegram.list "https://raw.githubusercontent.com/Repcz/Open-Proflies/main/Surge/Rules/Telegram.list"
@@ -325,7 +327,8 @@ jobs:
         curl -L -o Open-Proflies-repo/Loon/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
         curl -L -o Open-Proflies-repo/Loon/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
         curl -L -o Open-Proflies-repo/Loon/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
-        curl -L -o Open-Proflies-repo/Loon/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"        # 代理规则
+        curl -L -o Open-Proflies-repo/Loon/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Open-Proflies-repo/Loon/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
         # 代理规则
         curl -L -o Open-Proflies-repo/Loon/Rules/Emby.list "https://raw.githubusercontent.com/Repcz/Open-Proflies/main/Surge/Rules/Emby.list"
         curl -L -o Open-Proflies-repo/Loon/Rules/Lan.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
