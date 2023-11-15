@@ -40,6 +40,7 @@ jobs:
         curl -L -o Open-Proflies-repo/Surge/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        curl -L -o Open-Proflies-repo/Surge/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/ProxyGFW_RuleSet.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
         curl -L -o Open-Proflies-repo/Surge/Rules/ProxyGFW_DomainSet.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
         # 游戏规则 
