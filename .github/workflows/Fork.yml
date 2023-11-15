@@ -171,14 +171,15 @@ jobs:
           fi
         done
 
-    - name: Edit Surge/Rules/Ads_*.list
+    - name: Edit Surge/Rules add extended-matching
       run: |
         cd Open-Proflies-repo/Surge/Rules
-        for file in Ads_*.list AD-*.list; do
+        for file in Ads_*.list AD-*.list WeChat.list; do
           if [ -f "$file" ]; then
           # 在包含 DOMAIN的行的最后面添加 ,extended-matching
           sed -i '/^DOMAIN-SUFFIX,/ s/$/,extended-matching/' "$file"
           sed -i '/^DOMAIN,/ s/$/,extended-matching/' "$file"
+          sed -i '/^\./ s/$/,extended-matching/' "$file"
           else
             echo "$file not found."
           fi
